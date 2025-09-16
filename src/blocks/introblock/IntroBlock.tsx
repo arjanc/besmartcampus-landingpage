@@ -1,7 +1,4 @@
 import CustomButton from '@/components/ui/custom-button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
-import Image from 'next/image';
 import { Videoplayer } from '@/components/videoplayer';
 
 export function IntroBlock() {

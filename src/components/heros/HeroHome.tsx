@@ -6,7 +6,7 @@ export function HeroHome({ className }: { className?: string }) {
     return (
         <div className="relative">
             <div className={twMerge("base-container", className)}>
-            <Image src="/images/logo-element-2.svg" className="absolute -bottom-[80px] right-1/3" alt="BSC logo element" width={374} height={179} />
+                <Image src="/images/logo-element-2.svg" className="absolute -bottom-[80px] right-1/3" alt="BSC logo element" width={374} height={179} />
                 <Image src="/images/logo-element-1.svg" className="absolute top-[140px] z-1 left-0" alt="BSC logo element" width={144} height={177} />
                 <div className="relative z-0 mt-[40px]">
                     <div className="absolute z-2 w-full h-[calc(100%+120px)] -top-[120px] overflow-hidden">

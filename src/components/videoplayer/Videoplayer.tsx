@@ -17,15 +17,43 @@ interface VideoPlayerProps {
     thumbnailUrl: string;
     className?: string;
     caption?: string;
+    showPlayButton?: boolean;
 }
 
-export function Videoplayer({ sources, thumbnailUrl, className, caption }: VideoPlayerProps) {
+export function Videoplayer({ sources, thumbnailUrl, className, caption, showPlayButton = false }: VideoPlayerProps) {
     const [showVideo, setShowVideo] = useState(false);
     return (
         <div className={twMerge("text-lichtblauw w-full", className)}>
-            <div className="relative aspect-video rounded-xl overflow-hidden mb-2">
+            <div className="relative aspect-video rounded-xl overflow-hidden mb-2 w-full @container group">
                 {!showVideo ? (
-                    <Image src={thumbnailUrl} alt="BeSmart Campus" className="object-contain w-full" width={523} height={296} onClick={() => setShowVideo(true)} />
+                    <>
+                        <Image
+                            src={thumbnailUrl}
+                            alt="BeSmart Campus"
+                            className="object-contain w-full h-auto"
+                            width={523}
+                            height={296}
+                            sizes="523px"
+                            onClick={() => setShowVideo(true)}
+                        />
+                        {showPlayButton && (
+                            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                                <div className="@xs:scale-90 @sm:scale-100 @md:scale-110 @lg:scale-125 @xl:scale-150">
+                                    <div className="relative w-16 h-16 @sm:w-20 @sm:h-20 @md:w-24 @md:h-24 rounded-full bg-quinary hover:bg-quinary-400 transition-all duration-300 cursor-pointer group-hover:scale-110 flex items-center justify-center" onClick={() => setShowVideo(true)}>
+                                        <FontAwesomeIcon 
+                                            icon={faPlay} 
+                                            className="text-white"
+                                            style={{
+                                                width: '100%',
+                                                height: '100%',
+                                                marginLeft: '5%',
+                                            }}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                    </>
                 ): (
                     <video className="w-full h-full object-cover rounded-lg" controls autoPlay>
                         {sources.map((source, index) => (
@@ -36,7 +64,7 @@ export function Videoplayer({ sources, thumbnailUrl, className, caption }: Video
                 )}
                 
             </div>
-            {caption && <span className="px-2"><FontAwesomeIcon icon={faPlay} /> {caption}</span>}
+            {caption && <div className="px-2 text-sm"><FontAwesomeIcon icon={faPlay} className="fa-lg inline mr-1" /><span>{caption}</span></div>}
         </div>
     );
 }

@@ -18,7 +18,9 @@ export function Header() {
           alt="BSC logo"
           width={210}
           height={79}
-          className="logo-image"
+          sizes="210px"
+          className="logo-image h-auto w-auto"
+          priority
         />
       </Link>
 
