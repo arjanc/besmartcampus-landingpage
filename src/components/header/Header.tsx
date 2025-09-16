@@ -2,16 +2,14 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import CustomButton from '@/components/ui/custom-button';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import { MainNavigation } from '@/components/navigation';
 
 export function Header() {
-  const pathname = usePathname();
   return (
-    <header className="base-container flex w-full mt-16">
+    <header className="relative z-4 base-container flex w-full mt-16">
       <Link href="/">
         <Image
           src="/images/logo.svg"
