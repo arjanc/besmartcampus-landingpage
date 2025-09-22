@@ -154,6 +154,16 @@
   p {
     @apply text-[16px] leading-[24px] pb-6;
   }
+
+  blockquote {
+    @apply relative font-cocogoose text-3xl text-lichtblauw;
+  }
+  blockquote::before {
+    content: open-quote;
+  }
+  blockquote::after {
+    content: close-quote;
+  }
 }
 
 @layer components {

@@ -1,6 +1,6 @@
 import { HeroHome } from "@/components/heros";
-import { IntroBlock } from "@/blocks/introblock";
-import { Platformblock } from "@/blocks/platformblock";
+import { IntroBlock } from "@/blocks/introBlock";
+import { Platformblock } from "@/blocks/platformBlock";
 
 export default function Home() {
   return (
