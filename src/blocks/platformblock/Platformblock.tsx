@@ -12,7 +12,7 @@ export function Platformblock() {
             <div className="base-container py-26">
                 <div className="grid lg:grid-cols-2 gap-18 pb-26">
                     <h3>Het BeSmart Learning Platform</h3>
-                    <p className="p-0">Het BeSmart Learning Platform is een digitale leeromgeving waarin leerlingen zelfstandig kunnen leren met hulp van AI. Ze krijgen toegang tot uitlegvideo’s, opgaven en directe ondersteuning – precies wanneer ze het nodig hebben.</p>
+                    <p className="p-0">Het BeSmart Learning Platform is een digitale leeromgeving waarin leerlingen zelfstandig kunnen leren met hulp van AI. Ze krijgen toegang tot uitlegvideo&apos;s, opgaven en directe ondersteuning - precies wanneer ze het nodig hebben.</p>
                 </div>
                 <Videoplayer
                     sources={[
@@ -30,7 +30,7 @@ export function Platformblock() {
                     </PlatformItem>
                     <PlatformItem>
                         <Image src="/images/logo-elm-2.svg" alt="BeSmart Campus" className="w-full max-h-[74px]" width={141} height={74} sizes="141px" />
-                        <p className="p-0">Unieke, <strong>Tiny Talks &trade;</strong>: duizenden korte, krachtige uitlegvideo's per onderwerp</p>
+                        <p className="p-0">Unieke, <strong>Tiny Talks &trade;</strong>: duizenden korte, krachtige uitlegvideo&apos;s per onderwerp</p>
                     </PlatformItem>
                     <PlatformItem>
                         <Image src="/images/logo-elm-3.svg" alt="BeSmart Campus" className="w-full max-h-[74px]" width={81} height={73} sizes="81px" />
