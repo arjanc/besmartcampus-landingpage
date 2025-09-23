@@ -3,8 +3,8 @@ import { Videoplayer } from '@/components/videoplayer';
 
 export function IntroBlock() {
     return (
-        <div className="relative">
-        <div className="base-container pb-24">
+        <div className="relative z-1">
+        <div className="relative z-1 base-container pb-24">
             <div className="flex flex-col md:flex-row flex-wrap gap-18">
                 <div className="flex-1 w-full md:w-1/2 text-donkerblauw">
                     <h3 className="mb-4">AI + onderwijs. Eén platform. Voor alle leerlingen.</h3>

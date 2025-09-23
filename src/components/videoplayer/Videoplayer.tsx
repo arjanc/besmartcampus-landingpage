@@ -64,7 +64,7 @@ export function Videoplayer({ sources, thumbnailUrl, className, caption, showPla
                 )}
                 
             </div>
-            {caption && <div className="px-2 text-sm"><FontAwesomeIcon icon={faPlay} className="fa-lg inline mr-1" /><span>{caption}</span></div>}
+            {caption && <div className="px-2 text-sm bg-white/60 rounded-xl py-1"><FontAwesomeIcon icon={faPlay} className="fa-lg inline mr-1" /><span>{caption}</span></div>}
         </div>
     );
 }
