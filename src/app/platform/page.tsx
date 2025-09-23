@@ -57,15 +57,13 @@ export default function PlatformPage() {
                     </div>
                     <div>
                         <h3 className="mb-8">wat maakt het uniek?</h3>
-                        <p>
-                            <ul className="list-disc">
-                                <li><strong>Persoonlijke AI-tutor</strong> - 24/7 beschikbaar in een veilige, afgeschermde omgeving, zonder afleiding of ruis.</li>
-                                <li><strong>Tiny Talks&trade; uitlegvideo’s</strong> - zodat leerlingen snel en helder de kern van een onderwerp begrijpen.</li>
-                                <li><strong>Realtime feedback op 100.000+ opgaven</strong> - directe oefening versterkt het begrip.</li>
-                                <li><strong>Gemaakt mét scholen en docenten</strong> - de inhoud sluit naadloos aan op het curriculum én de lespraktijk.</li>
-                                <li><strong>Geen commerciële bijles</strong> - maar een oplossing die via school voor álle leerlingen beschikbaar is.</li>
-                            </ul>
-                        </p>
+                        <ul className="list-disc">
+                            <li><strong>Persoonlijke AI-tutor</strong> - 24/7 beschikbaar in een veilige, afgeschermde omgeving, zonder afleiding of ruis.</li>
+                            <li><strong>Tiny Talks&trade; uitlegvideo’s</strong> - zodat leerlingen snel en helder de kern van een onderwerp begrijpen.</li>
+                            <li><strong>Realtime feedback op 100.000+ opgaven</strong> - directe oefening versterkt het begrip.</li>
+                            <li><strong>Gemaakt mét scholen en docenten</strong> - de inhoud sluit naadloos aan op het curriculum én de lespraktijk.</li>
+                            <li><strong>Geen commerciële bijles</strong> - maar een oplossing die via school voor álle leerlingen beschikbaar is.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
