@@ -23,7 +23,7 @@ export function Footer() {
                     />
                 </Link>
                 <MainNavigation colorInvert />
-                <div className="flex items-center">
+                <div className="flex flex-1 justify-end items-center lg:flex-none">
                     <CustomButton
                         href="/login"
                         variant="primary"

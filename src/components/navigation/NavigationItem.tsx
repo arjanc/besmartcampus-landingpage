@@ -11,7 +11,11 @@ interface NavigationItemProps {
 
 export function NavigationItem({ children, active, activeClass, href, className }: NavigationItemProps) {
   return (
-    <li className={twMerge("nav-item ml-1 first:ml-0 before:content-['•'] before:mr-1 first:before:hidden", className)}>
+    <li className={twMerge(
+      "nav-item w-full text-3xl py-4",
+      "lg:w-auto lg:text-base lg:py-0 ml-1 first:ml-0 lg:before:content-['•'] lg:before:mr-1 lg:first:before:hidden",
+      className
+    )}>
         <Link href={href} className={twMerge(
           'hover:text-donkerblauw',
           active ? activeClass ? activeClass: 'text-donkerblauw' : ''
