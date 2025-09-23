@@ -9,10 +9,10 @@ export default function OverOnsPage() {
         <div className="base-container pt-8 pb-24">
             <Videoplayer
                 sources={[
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-480p.mp4", media:"(max-width: 600px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-720p.mp4", media:"(max-width: 1200px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-1080p.mp4"}
-                    ]}
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort-sd.mp4", media:"(max-width: 600px)"},
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort-hd.mp4", media:"(max-width: 1200px)"},
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort-fullhd.mp4"}
+                ]}
                 thumbnailUrl="/images/video-thumbnail-over.png"
                 showPlayButton={true}
             />
@@ -68,9 +68,9 @@ export default function OverOnsPage() {
                     <div>
                         <Videoplayer
                             sources={[
-                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-480p.mp4", media:"(max-width: 600px)"},
-                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-720p.mp4", media:"(max-width: 1200px)"},
-                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-1080p.mp4"}
+                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival-sd.mp4", media:"(max-width: 600px)"},
+                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival-hd.mp4", media:"(max-width: 1200px)"},
+                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival-fullhd.mp4"}
                             ]}
                             caption="Dennis vertelt zijn verhaal"
                             thumbnailUrl="/images/video-thumbnail-platform.png"

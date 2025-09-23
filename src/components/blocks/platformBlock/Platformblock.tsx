@@ -16,9 +16,9 @@ export function Platformblock() {
                 </div>
                 <Videoplayer
                     sources={[
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-480p.mp4", media:"(max-width: 600px)"},
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-720p.mp4", media:"(max-width: 1200px)"},
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-1080p.mp4"}
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo-sd.mp4", media:"(max-width: 600px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo-hd.mp4", media:"(max-width: 1200px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo-fullhd.mp4"}
                       ]}
                     thumbnailUrl="/images/video-thumbnail-platform.png"
                     showPlayButton={true}
