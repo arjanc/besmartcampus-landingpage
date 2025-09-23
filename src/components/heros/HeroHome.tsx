@@ -10,7 +10,16 @@ export function HeroHome({ className }: { className?: string }) {
                 <Image src="/images/logo-element-1.svg" className="absolute top-[140px] z-1 left-0" alt="BSC logo element" width={144} height={177} />
                 <div className="relative z-0 mt-[40px]">
                     <div className="absolute z-2 w-full flex justify-center h-[calc(100%+120px)] -top-[120px] overflow-hidden">
-                        <Image src="/images/girl.png" width={570} height={1066} alt="Woman with books" className="object-contain transform-[scale(1.3)] lg:transform-[scale(1.5)] translate-y-[25%]" />
+                        <div className="relative w-full h-full">
+                            <Image 
+                                src="/images/girl.png" 
+                                alt="Woman with books" 
+                                fill
+                                sizes="(max-width: 1024px) 30vw, 50vw"
+                                className="object-contain scale-[1.3] lg:scale-[1.5] translate-y-[25%]"
+                                priority
+                            />
+                        </div>
                     </div>
                     <div className="relative z-1 aspect-[22/9] mb-[90px] rounded-xl overflow-hidden bg-[linear-gradient(to_right,_transparent,_#53769b),radial-gradient(circle,_#bdcddb,_#80a0be)]">
                         <Image src="/images/logo-element-3.svg" className="absolute top-[20px] -right-[30px]" alt="BSC logo element" width={167} height={89} />

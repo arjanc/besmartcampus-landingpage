@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { twMerge } from 'tailwind-merge';
 import { CocoGooseFont } from '@/utils/fonts';
 import { Funnel_Sans } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body
         className={twMerge('h-full', fontClasses, `${funnelSans.variable} antialiased`)}
       >
+        <GoogleAnalytics gaId="G-JFDSDGDFG" />
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           <main className="flex-1">
