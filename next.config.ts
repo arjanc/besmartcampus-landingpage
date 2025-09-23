@@ -11,17 +11,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': path.resolve(__dirname, 'src'),
-      '@/blocks': path.resolve(__dirname, 'src/blocks'),
-      '@/components': path.resolve(__dirname, 'src/components'),
-    };
+  // webpack: (config) => {
+  //   config.resolve.alias = {
+  //     ...config.resolve.alias,
+  //     '@': path.resolve(__dirname, 'src'),
+  //     '@/blocks': path.resolve(__dirname, 'src/blocks'),
+  //     '@/components': path.resolve(__dirname, 'src/components'),
+  //   };
     
-    // Important: return the modified config
-    return config;
-  },
+  //   // Important: return the modified config
+  //   return config;
+  // },
 };
 
 export default nextConfig;

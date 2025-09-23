@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Faq, FaqItem } from "@/components/faq";
-import { ContactBlock } from "@/blocks/contactBlock";
+import { ContactBlock } from "@/components/blocks/contactBlock";
 
 export default function ContactPage() {
     return (

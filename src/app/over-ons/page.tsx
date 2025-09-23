@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { Videoplayer } from "@/components/videoplayer";
-import { IntroOverOnsBlock } from "@/blocks/introOverOnsBlock";
+import { IntroOverOnsBlock } from "@/components/blocks/introOverOnsBlock";
 
 export default function OverOnsPage() {
     return (
