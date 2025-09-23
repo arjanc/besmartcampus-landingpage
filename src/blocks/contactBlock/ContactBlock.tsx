@@ -44,8 +44,6 @@ export const ContactBlock = ({ className }: IContactBlock) => {
         } finally {
             setSubmitting(false);
         }
-        
-        console.log('Form values:', formValues);
     }
 
     if (success) {
