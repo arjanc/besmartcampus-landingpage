@@ -9,9 +9,9 @@ export default function OverOnsPage() {
         <div className="base-container pt-8 pb-24">
             <Videoplayer
                 sources={[
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_sd_.mp4", media:"(max-width: 600px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_hd_.mp4", media:"(max-width: 1200px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_fullhd_.mp4"}
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering-kort_sd.mp4", media:"(max-width: 600px)"},
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering-kort_hd.mp4", media:"(max-width: 1200px)"},
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering-kort_fullhd.mp4"}
                 ]}
                 thumbnailUrl="/images/video-thumbnail-over.png"
                 showPlayButton={true}
