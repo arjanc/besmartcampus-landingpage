@@ -17,6 +17,7 @@ interface LinkButtonProps extends BaseButtonProps {
   href: string;
   onClick?: never;
   type?: never;
+  isExternal?: boolean;
 }
 
 interface ButtonProps extends BaseButtonProps {
@@ -60,6 +61,18 @@ export default function CustomButton({
   );
 
   if ('href' in props && props.href) {
+    if (props.isExternal) {
+      return (
+        <a
+          href={props.href}
+          className={baseClasses}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {content}
+        </a>
+      );
+    }
     return (
       <Link href={props.href} className={baseClasses}>
         {content}

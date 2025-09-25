@@ -25,11 +25,12 @@ export function Footer() {
                 <MainNavigation colorInvert />
                 <div className="flex flex-1 justify-end items-center lg:flex-none">
                     <CustomButton
-                        href="/login"
+                        href="smartlearningplatform"
                         variant="primary"
                         icon={faArrowRight}
                         iconPosition="right"
                         className="w-[118px] h-[48px]"
+                        isExternal
                     >
                     login
                     </CustomButton>

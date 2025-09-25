@@ -72,11 +72,12 @@ export function Header() {
 
         <div className="flex items-center">
           <CustomButton
-            href="/login"
+            href="/smartlearningplatform"
             variant="primary"
             icon={faArrowRight}
             iconPosition="right"
             className="w-[118px] h-[48px]"
+            isExternal
           >
             login
           </CustomButton>
