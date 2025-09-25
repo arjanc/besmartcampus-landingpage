@@ -68,9 +68,9 @@ export default function OverOnsPage() {
                     <div>
                         <Videoplayer
                             sources={[
-                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_sd.mp4", media:"(max-width: 600px)"},
-                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_hd.mp4", media:"(max-width: 1200px)"},
-                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_fullhd.mp4"}
+                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_sd_.mp4", media:"(max-width: 600px)"},
+                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_hd_.mp4", media:"(max-width: 1200px)"},
+                                {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_fullhd_.mp4"}
                             ]}
                             caption="Dennis vertelt zijn verhaal"
                             thumbnailUrl="/images/video-thumbnail-platform.png"
