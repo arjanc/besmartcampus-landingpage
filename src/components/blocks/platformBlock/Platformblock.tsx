@@ -16,9 +16,9 @@ export function Platformblock() {
                 </div>
                 <Videoplayer
                     sources={[
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_sd.mp4", media:"(max-width: 600px)"},
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_hd.mp4", media:"(max-width: 1200px)"},
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_fullhd.mp4"}
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_sd_.mp4", media:"(max-width: 600px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_hd_.mp4", media:"(max-width: 1200px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_fullhd_.mp4"}
                       ]}
                     thumbnailUrl="/images/video-thumbnail-platform.png"
                     showPlayButton={true}
