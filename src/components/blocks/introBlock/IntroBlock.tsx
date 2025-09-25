@@ -18,9 +18,9 @@ export function IntroBlock() {
                 <div className="flex flex-1 w-full items-center md:w-1/2">
                     <Videoplayer
                         sources={[
-                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-480p.mp4", media:"(max-width: 600px)"},
-                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-720p.mp4", media:"(max-width: 1200px)"},
-                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-1080p.mp4"}
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival_480p.mp4", media:"(max-width: 600px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival_720p.mp4", media:"(max-width: 1200px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival_1080p.mp4"}
                           ]}
                         thumbnailUrl="/images/video-thumbnail-1.png"
                         caption="Bekijk de video hierboven om het in actie te zien."

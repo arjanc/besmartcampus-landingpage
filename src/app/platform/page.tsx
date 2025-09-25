@@ -11,9 +11,9 @@ export default function PlatformPage() {
                     <Videoplayer
                         className="relative z-1"
                         sources={[
-                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo-sd.mp4", media:"(max-width: 600px)"},
-                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo-hd.mp4", media:"(max-width: 1200px)"},
-                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo-fullhd.mp4"}
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_sd.mp4", media:"(max-width: 600px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_hd.mp4", media:"(max-width: 1200px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_fullhd.mp4"}
                         ]}
                         thumbnailUrl="/images/video-thumbnail-over.png"
                         showPlayButton={true}
