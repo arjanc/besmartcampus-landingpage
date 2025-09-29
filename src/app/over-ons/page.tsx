@@ -9,9 +9,9 @@ export default function OverOnsPage() {
         <div className="base-container pt-8 pb-24">
             <Videoplayer
                 sources={[
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_sd.mp4", media:"(max-width: 600px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_hd.mp4", media:"(max-width: 1200px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_fullhd.mp4"}
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_sd_.mp4", media:"(max-width: 600px)"},
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_hd_.mp4", media:"(max-width: 1200px)"},
+                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_fullhd_.mp4"}
                 ]}
                 thumbnailUrl="/images/video-thumbnail-over.png"
                 showPlayButton={true}
@@ -26,7 +26,7 @@ export default function OverOnsPage() {
                 <div>
                     <h3 className="mb-8">Wie zijn wij?</h3>
                     <p>BeSmart Campus is ontstaan uit de overtuiging dat elk kind de kans verdient om te leren en te begrijpen. Wat begon met een andere uitleg in een wiskundeles, groeide in 2022 uit tot de eerste BeSmart Leerfestivals: fysieke bijeenkomsten waar leerlingen samen met BeSmart experts op een speelse en motiverende manier aan hun kennis werkten. </p>
-                    <p>Vanuit die inzichten ontwikkelden we in 2025 het BeSmart Learning platform: een veilige AI-tutor die leerlingen helpt leren op hun eigen niveau. We werken samen met docenten, scholen en onderwijsprofessionals om technologie in te zetten als versterking – niet als vervanging – van de kracht van het onderwijs.</p>
+                    <p>Vanuit die inzichten ontwikkelden we in 2025 het BeSmart Learning Platform: een veilige AI-tutor die leerlingen helpt leren op hun eigen niveau. We werken samen met docenten, scholen en onderwijsprofessionals om technologie in te zetten als versterking – niet als vervanging – van de kracht van het onderwijs.</p>
                 </div>
             </div>
             <div className="base-container text-center">
@@ -63,7 +63,7 @@ export default function OverOnsPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-18">
                     <div>
                         <p>Tijdens mijn vwo-periode begreep ik niets van wiskunde. Totdat &eacute;&eacute;n docent het anders uitlegde - en alles op z&apos;n plek viel. Het werd het begin van een mooie reis met afgeronde studies bedrijfswiskunde, informatica, economie en econometrie. </p>
-                        <p>Dat ene moment van begrip gun ik élk kind. Daarom ben ik BeSmart Campus begonnen: iedereen kan het snappen, als het goed wordt uitgelegd. Sinds 2021 ontwikkel ik samen met docenten unieke content die schoolstof begrijpelijker en leuker maken. Waar we begonnen op scholen met onze BeSmart Leerfestivals staat er inmiddels een uniek, op AI gebaseerd leerplatform: het BeSmart Learning platform.<br/>Zo hoeft geen kind achter te blijven en blijft geen talent onbenut. Leren is pas leuk, als je het snapt!</p>
+                        <p>Dat ene moment van begrip gun ik élk kind. Daarom ben ik BeSmart Campus begonnen: iedereen kan het snappen, als het goed wordt uitgelegd. Sinds 2021 ontwikkel ik samen met docenten unieke content die schoolstof begrijpelijker en leuker maken. Waar we begonnen op scholen met onze BeSmart Leerfestivals staat er inmiddels een uniek, op AI gebaseerd leerplatform: het BeSmart Learning Platform.<br/>Zo hoeft geen kind achter te blijven en blijft geen talent onbenut. Leren is pas leuk, als je het snapt!</p>
                     </div>
                     <div>
                         <Videoplayer
@@ -72,7 +72,6 @@ export default function OverOnsPage() {
                                 {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_hd_.mp4", media:"(max-width: 1200px)"},
                                 {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/leerfestival_fullhd_.mp4"}
                             ]}
-                            caption="Dennis vertelt zijn verhaal"
                             thumbnailUrl="/images/video-thumbnail-platform.png"
                             showPlayButton={true}
                         />

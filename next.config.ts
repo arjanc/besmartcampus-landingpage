@@ -10,7 +10,8 @@ const nextConfig: NextConfig = {
         hostname: "api.builder.io",
       },
     ],
-  }
+  },
+  output: "standalone"
 };
 
 export default nextConfig;

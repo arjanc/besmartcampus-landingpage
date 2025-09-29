@@ -41,10 +41,10 @@ export function MainNavigation({ colorInvert, open = false, onClose }: MainNavig
       <Navigation className={twMerge(
         colorInvert ? 'text-white' : ''
       )}>
-          <NavigationItem href="/over-ons" active={pathname === '/over-ons'} >over ons</NavigationItem>
-          <NavigationItem href="/platform" active={pathname === '/platform'} >het BeSmart learning platform</NavigationItem>
-          <NavigationItem href="/team" active={pathname === '/team'} >team</NavigationItem>
-          <NavigationItem href="/contact" active={pathname === '/contact'} >contact</NavigationItem>
+          <NavigationItem href="/over-ons" active={pathname === '/over-ons'} >Over ons</NavigationItem>
+          <NavigationItem href="/platform" active={pathname === '/platform'} >BeSmart Learning Platform</NavigationItem>
+          <NavigationItem href="/team" active={pathname === '/team'} >Team</NavigationItem>
+          <NavigationItem href="/contact" active={pathname === '/contact'} >Contact</NavigationItem>
       </Navigation>
     </div>
   );
