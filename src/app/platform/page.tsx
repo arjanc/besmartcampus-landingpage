@@ -27,23 +27,23 @@ export default function PlatformPage() {
                     <p className="font-bold font-[18px] px-18 py-24">Het BeSmart Learning Platform is een digitale leeromgeving waarin leerlingen zelfstandig kunnen leren met hulp van AI. Ze krijgen toegang tot uitlegvideo’s, opgaven en directe ondersteuning – precies wanneer ze het nodig hebben.</p>
                     <ul className="flex flex-wrap justify-center gap-18 w-full list-none text-[18px]">
                         <li className="w-[306px]">
-                            <Image src="/images/team.png" alt="Team" className="rounded-xl overflow-hidden w-full mb-8" width={475} height={331} sizes="475px" />
+                            <Image src="/images/logo-elm-1.svg" alt="Team" className="rounded-xl overflow-hidden w-full max-h-[173px] mb-8 p-8" width={139} height={74} sizes="139px" />
                             <span className="block px-8">Een <strong>persoonlijke AI-tutor</strong> die 24/7 klaar staat in een veilige, afgeschermde leeromgeving</span>
                         </li>
                         <li className="w-[306px]">
-                            <Image src="/images/team.png" alt="Team" className="rounded-xl overflow-hidden w-full mb-8" width={475} height={331} sizes="475px" />
+                            <Image src="/images/logo-elm-2.svg" alt="Team" className="rounded-xl overflow-hidden w-full max-h-[173px] mb-8 p-8" width={141} height={74} sizes="141px" />
                             <span className="block px-8">Unieke <strong>Tiny Talks&trade;</strong>: duizenden korte, krachtige uitlegvideo’s per onderwerp</span>
                         </li>
                         <li className="w-[306px]">
-                            <Image src="/images/team.png" alt="Team" className="rounded-xl overflow-hidden w-full mb-8" width={475} height={331} sizes="475px" />
+                            <Image src="/images/logo-elm-3.svg" alt="Team" className="rounded-xl overflow-hidden w-full max-h-[173px] mb-8 p-8" width={81} height={73} sizes="81px" />
                             <span className="block px-8">Meer dan <strong>100.000 oefenopgaven</strong> met realtime feedback</span>
                         </li>
                         <li className="w-[306px]">
-                            <Image src="/images/team.png" alt="Team" className="rounded-xl overflow-hidden w-full mb-8" width={475} height={331} sizes="475px" />
+                            <Image src="/images/logo-elm-4.svg" alt="Team" className="rounded-xl overflow-hidden w-full max-h-[173px] mb-8 p-8" width={109} height={54} sizes="109px" />
                             <span className="block px-8"><strong>Hoogwaardige content</strong>, ontwikkeld samen met scholen en docenten</span>
                         </li>
                         <li className="w-[306px]">
-                            <Image src="/images/team.png" alt="Team" className="rounded-xl overflow-hidden w-full mb-8" width={475} height={331} sizes="475px" />
+                            <Image src="/images/logo-elm-5.svg" alt="Team" className="rounded-xl overflow-hidden w-full max-h-[173px] mb-8 p-8" width={74} height={59} sizes="74px" />
                             <span className="block px-8">Volledige <strong>aansluiting op schoolmethodes</strong> en de centrale exameneisen</span>
                         </li>
                     </ul>
