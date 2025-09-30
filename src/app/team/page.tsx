@@ -12,7 +12,7 @@ export default function TeamPage() {
                     Onze docenten werken niet alleen aan nieuwe lesstof voor BeSmart Campus, maar staan ook iedere week nog als docent voor de klas. Dit garandeert dat onze lesstof écht goed aansluit bij de dagelijkse praktijk!
                     </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-18">
-                        <TeamMember name="Dennis Rot" title="Oprichter BeSmart Campus" image="/images/team.png" />
+                        <TeamMember name="Dennis Rot" title="Oprichter BeSmart Campus" image="/images/dennis-rot-oprichter-besmart-campus.jpg" />
                         <TeamMember name="Bas van Hassel" title="Docent natuurkunde" image="/images/team/bas-van-hassel-docent-natuurkunde.png" />
                         <TeamMember name="Christiaan Mensink" title="Docent economie en bedrijfseconomie " image="/images/team/christiaan-mensink-docent-economie-en-bedrijfseconomie.jpg" />
                         <TeamMember name="Jasper Heesbeen" title="Docent wiskunde" image="/images/team/jasper-heesbeen-docent-wiskunde.jpg" />
