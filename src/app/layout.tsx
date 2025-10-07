@@ -57,7 +57,7 @@ export default function RootLayout({
       <body
         className={twMerge('h-full', fontClasses, `${funnelSans.variable} antialiased`)}
       >
-        <GoogleAnalytics gaId="G-JFDSDGDFG" />
+        <GoogleAnalytics gaId="G-F8YQ7RZ8WR" />
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />
           <main className="flex-1">
