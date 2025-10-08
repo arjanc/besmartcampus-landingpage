@@ -5,8 +5,6 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import {twMerge} from 'tailwind-merge';
-import CustomButton from '@/components/ui/custom-button';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { MainNavigation } from '@/components/navigation';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -67,7 +65,6 @@ export function Header() {
             </div>
           </Link>
         </div>
-
         <MainNavigation open={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
       </div>
       </div>
