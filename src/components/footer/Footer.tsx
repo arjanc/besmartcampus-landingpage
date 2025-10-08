@@ -23,18 +23,6 @@ export function Footer() {
                     />
                 </Link>
                 <MainNavigation colorInvert />
-                <div className="flex flex-1 justify-end items-center lg:flex-none">
-                    <CustomButton
-                        href="smartlearningplatform"
-                        variant="primary"
-                        icon={faArrowRight}
-                        iconPosition="right"
-                        className="w-[118px] h-[48px]"
-                        isExternal
-                    >
-                    login
-                    </CustomButton>
-                </div>
                 <div className="flex items-center justify-center ml-4">
                     <a href="#"><FontAwesomeIcon icon={faInstagram} size="2xl" /></a>
                     <a href="#"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>

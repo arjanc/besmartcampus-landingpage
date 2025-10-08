@@ -69,19 +69,6 @@ export function Header() {
         </div>
 
         <MainNavigation open={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
-
-        <div className="flex items-center">
-          <CustomButton
-            href="/smartlearningplatform"
-            variant="primary"
-            icon={faArrowRight}
-            iconPosition="right"
-            className="w-[118px] h-[48px]"
-            isExternal
-          >
-            login
-          </CustomButton>
-        </div>
       </div>
       </div>
     </header>
