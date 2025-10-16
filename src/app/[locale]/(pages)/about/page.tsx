@@ -61,7 +61,7 @@ export default function AboutPage() {
             <div className="base-container">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-18">
                     <div>
-                        <p>Tijdens mijn vwo-periode begreep ik niets van wiskunde. Totdat &eacute;&eacute;n docent het anders uitlegde - en alles op z'n plek viel. Het werd het begin van een mooie reis met afgeronde studies bedrijfswiskunde, informatica, economie en econometrie. </p>
+                        <p>Tijdens mijn vwo-periode begreep ik niets van wiskunde. Totdat &eacute;&eacute;n docent het anders uitlegde - en alles op z&apos;n plek viel. Het werd het begin van een mooie reis met afgeronde studies bedrijfswiskunde, informatica, economie en econometrie. </p>
                         <p>Dat ene moment van begrip gun ik élk kind. Daarom ben ik BeSmart Campus begonnen: iedereen kan het snappen, als het goed wordt uitgelegd. Sinds 2021 ontwikkel ik samen met docenten unieke content die schoolstof begrijpelijker en leuker maken. Waar we begonnen op scholen met onze BeSmart Leerfestivals staat er inmiddels een uniek, op AI gebaseerd leerplatform: het BeSmart Learning Platform.<br/>Zo hoeft geen kind achter te blijven en blijft geen talent onbenut. Leren is pas leuk, als je het snapt!</p>
                     </div>
                     <div>
