@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "platform": "Platform",
+    "team": "Team"
+  },
+  "seo": {
+    "title": {
+      "home": "BeSmart Campus"
+    }
+  }
+}

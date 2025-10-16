@@ -1,11 +1,11 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
+import { usePathname, Link } from '@/i18n/navigation';
 import Image from 'next/image';
-import Link from 'next/link';
 import {twMerge} from 'tailwind-merge';
 import { MainNavigation } from '@/components/navigation';
+import LanguageSwitch from '@/components/languageSwitch';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -48,7 +48,7 @@ export function Header() {
           <FontAwesomeIcon icon={faBars} className="md:hidden" size="xl" onClick={() => setIsMenuOpen(!isMenuOpen)} />
         </div>
         <div className="flex flex-1 justify-center lg:flex-none lg:justify-start">
-          <Link href="/">
+          <Link className="flex items-center" href="/">
             <div className={twMerge(
               "",
               isScrolled ? 'scale-80' : 'scale-100'
@@ -66,6 +66,7 @@ export function Header() {
           </Link>
         </div>
         <MainNavigation open={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+          <LanguageSwitch />
       </div>
       </div>
     </header>
