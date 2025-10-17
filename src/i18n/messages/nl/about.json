@@ -1,4 +1,39 @@
 {
-    "title": ""
-  }
+    "title": "Over BeSmart Campus",
+    "description": "Het Nederlandse onderwijs staat onder druk. Steeds meer leerlingen lopen vast, de kansenongelijkheid groeit, en docenten raken overbelast. Tegelijkertijd biedt technologie ongekende kansen – als we het slim én veilig inzetten.",
+    "introParagraph2": "BeSmart Campus luidt een nieuwe fase in waarin AI en docenten zij aan zij werken. Onze slimme, veilige AI-technologie helpt leerlingen leren op hun eigen niveau – met persoonlijke uitleg, oefening en ondersteuning. Docenten houden de regie, leerlingen krijgen grip. Zo bouwen we aan eerlijker, persoonlijker en effectiever onderwijs.",
+    "introParagraph3": "Geen vervanging van het onderwijs, maar een krachtige aanvulling. Geen dure bijles voor de happy few, maar ondersteuning voor ieder kind – via school. Onze missie is helder: het reduceren van leerachterstanden en het bevorderen van kansengelijkheid in én met het voortgezet onderwijs.",
+    "wie-zijn-wij": {
+      "title": "Wie zijn wij?",
+      "paragraph1": "BeSmart Campus is ontstaan uit de overtuiging dat elk kind de kans verdient om te leren en te begrijpen. Wat begon met een andere uitleg in een wiskundeles, groeide in 2022 uit tot de eerste BeSmart Leerfestivals: fysieke bijeenkomsten waar leerlingen samen met BeSmart experts op een speelse en motiverende manier aan hun kennis werkten.",
+      "paragraph2": "Vanuit die inzichten ontwikkelden we in 2025 het BeSmart Learning Platform: een veilige AI-tutor die leerlingen helpt leren op hun eigen niveau. We werken samen met docenten, scholen en onderwijsprofessionals om technologie in te zetten als versterking – niet als vervanging – van de kracht van het onderwijs."
+    },
+    "onze-missie": {
+      "title": "Onze missie",
+      "paragraph": "Onze missie: het reduceren van leerachterstanden en het bevorderen van kansengelijkheid in én met het onderwijs. Want iedere leerling verdient een eerlijke kans. Niet met dure bijles voor de happy few, maar met technologie die werkt voor iedereen. Door AI slim te combineren met de kracht van de docent, maken we onderwijs eerlijker, persoonlijker en effectiever. Geen kind blijft achter. Geen talent blijft onbenut.",
+      "column-1": {
+        "title": "Inventief",
+        "paragraph": "We maken moeilijk makkelijk"
+      },
+      "column-2": {
+        "title": "Fun",
+        "paragraph": "We maken leren leuk"
+      },
+      "column-3": {
+        "title": "Innovatief",
+        "paragraph": "We doen het echt anders"
+      },
+      "column-4": {
+        "title": "Toegankelijk",
+        "paragraph": "We zijn er voor iedereen"
+      }
+    },
+    "quote": {
+      "text": "Van worstelende leerling naar bouwer van BeSmart Campus.",
+      "name": "drs. Dennis Rot",
+      "role": "Oprichter BeSmart Campus"
+    },
+    "endParagraph1": "Tijdens mijn vwo-periode begreep ik niets van wiskunde. Totdat &eacute;&eacute;n docent het anders uitlegde - en alles op z&apos;n plek viel. Het werd het begin van een mooie reis met afgeronde studies bedrijfswiskunde, informatica, economie en econometrie. ",
+    "endParagraph2": "Dat ene moment van begrip gun ik élk kind. Daarom ben ik BeSmart Campus begonnen: iedereen kan het snappen, als het goed wordt uitgelegd. Sinds 2021 ontwikkel ik samen met docenten unieke content die schoolstof begrijpelijker en leuker maken. Waar we begonnen op scholen met onze BeSmart Leerfestivals staat er inmiddels een uniek, op AI gebaseerd leerplatform: het BeSmart Learning Platform.<br/>Zo hoeft geen kind achter te blijven en blijft geen talent onbenut. Leren is pas leuk, als je het snapt!"
+}
   

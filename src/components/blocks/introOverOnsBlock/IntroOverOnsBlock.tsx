@@ -1,15 +1,17 @@
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export function IntroOverOnsBlock() {
+    const t = useTranslations('about');
     return (
         <div className="relative">
             <div className="base-container lg:pb-24">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-18 items-center">
                     <div className="relative">
-                        <h3 className="mb-4 text-lichtblauw">Over BeSmart Campus</h3>
-                        <p className="font-bold">Het Nederlandse onderwijs staat onder druk. Steeds meer leerlingen lopen vast, de kansenongelijkheid groeit, en docenten raken overbelast. Tegelijkertijd biedt technologie ongekende kansen – als we het slim én veilig inzetten.</p>
-                        <p>BeSmart Campus luidt een nieuwe fase in waarin AI en docenten zij aan zij werken. Onze slimme, veilige AI-technologie helpt leerlingen leren op hun eigen niveau – met persoonlijke uitleg, oefening en ondersteuning. Docenten houden de regie, leerlingen krijgen grip. Zo bouwen we aan eerlijker, persoonlijker en effectiever onderwijs.</p>
-                        <p>Geen vervanging van het onderwijs, maar een krachtige aanvulling. Geen dure bijles voor de happy few, maar ondersteuning voor ieder kind – via school. Onze missie is helder: het reduceren van leerachterstanden en het bevorderen van kansengelijkheid in én met het voortgezet onderwijs.</p>
+                        <h3 className="mb-4 text-lichtblauw">{t('title')}</h3>
+                        <p className="font-bold">{t('description')}</p>
+                        <p>{t('introParagraph2')}</p>
+                        <p>{t('introParagraph3')}</p>
                     </div>
                 </div>
             </div>
