@@ -29,7 +29,7 @@ export default function ContactPage() {
                     <strong>BeSmart Campus B.V.</strong><br/>
                     KvK: 12345678<br/>
                     <strong><a href="mailto:info@besmartcampus.nl">info@besmartcampus.nl</a><br/></strong>
-                    <a href="tel:+31612345678">+31 6 12345678</a>
+                    <a href="tel:+31205616008">+31 20 561 6008</a>
                 </p>
             </div>
         </div>
