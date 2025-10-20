@@ -1,20 +1,22 @@
 import Image from 'next/image';
 import { Faq, FaqItem } from "@/components/faq";
 import { ContactBlock } from "@/components/blocks/contactBlock";
+import { useTranslations } from 'next-intl';
 
 export default function ContactPage() {
+    const t = useTranslations('contact');
     return (
         <>
         <div className="relative">
             <div className="base-container lg:grid lg:grid-cols-2 lg:gap-18 pt-24">
                 <div className="pb-24">
-                    <h3 className="text-lichtblauw mb-8">Veelgestelde vragen</h3>
+                    <h3 className="text-lichtblauw mb-8">{t('title')}</h3>
                     <Faq>
-                        <FaqItem question="Is het veilig?" answer="Ja. Het BeSmart Learning Platform draait in een beveiligde, afgeschermde omgeving. Geen advertenties, geen afleiding." />
-                        <FaqItem question="Is het gratis?" answer="Scholen betalen een licentie. Voor leerlingen is het gebruik volledig gratis." />
-                        <FaqItem question="Hoe werkt het?" answer="Leerlingen gaan naar het platform, krijgen uitleg, oefenen en krijgen realtime hulp van de AI. En via het dashboard heb je als leerling altijd het overzicht en houdt de docent de regie." />
-                        <FaqItem question="Hoe integreert het met bijvoorbeeld Magister?" answer="Via een directe koppeling." />
-                        <FaqItem question="Hoeveel tijd kost het?" answer="Het platform sluit aan op bestaande lesprogramma’s en examendomeinen. Geen extra werkdruk voor docenten." />
+                        <FaqItem question={t('faq.question1')} answer={t('faq.anwer1')} />
+                        <FaqItem question={t('faq.question2')} answer={t('faq.anwer2')} />
+                        <FaqItem question={t('faq.question3')} answer={t('faq.anwer3')} />
+                        <FaqItem question={t('faq.question4')} answer={t('faq.anwer4')} />
+                        <FaqItem question={t('faq.question5')} answer={t('faq.anwer5')} />
                     </Faq>
                 </div>
                 <div className="flex justify-end">

@@ -1,3 +1,31 @@
 {
-  "title": ""
+  "title": "Veelgestelde vragen",
+  "faq": {
+    "question1": "Is het veilig?",
+    "anwer1": "Ja. Het BeSmart Learning Platform draait in een beveiligde, afgeschermde omgeving. Geen advertenties, geen afleiding.",
+    "question2": "Is het gratis?",
+    "anwer2": "Scholen betalen een licentie. Voor leerlingen is het gebruik volledig gratis.",
+    "question3": "Hoe werkt het?",
+    "anwer3": "Leerlingen gaan naar het platform, krijgen uitleg, oefenen en krijgen realtime hulp van de AI. En via het dashboard heb je als leerling altijd het overzicht en houdt de docent de regie.",
+    "question4": "Hoe integreert het met bijvoorbeeld Magister?",
+    "anwer4": "Via een directe koppeling.",
+    "question5": "Hoeveel tijd kost het?",
+    "anwer5": "Het platform sluit aan op bestaande lesprogramma’s en examendomeinen. Geen extra werkdruk voor docenten."
+  },
+  "contactblock": {
+    "title": "Contact",
+    "description": "Vraag nu een demo aan en ontdek binnen 10 minuten hoe BeSmart jouw school of klas vooruithelpt – met AI die werkt, omdat het gebouwd is mét docenten. Al meer dan honderden leerlingen gebruiken het. En we staan pas aan het begin.",
+    "fields": {
+      "name": "Naam",
+      "organisation": "school/organisatie",
+      "email": "e-mailadres",
+      "message": "Uw bericht"
+    },
+    "btnSend": "Verstuur",
+    "sending": "Bezig met versturen...",
+    "thanks": {
+      "title": "Bedankt voor uw bericht!",
+      "description": "Uw bericht is succesvol verstuurd. We nemen zo snel mogelijk contact met u op"
+    }
+  }
 }
