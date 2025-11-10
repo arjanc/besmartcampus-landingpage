@@ -20,7 +20,6 @@ export default function TeamPage() {
                         <TeamMember name="Marloes Willemse" title="Docente aardrijkskunde" image="/images/team/marloes-willemse-docente-aardrijkskunde.jpg" />
                         <TeamMember name="Martin de Veen" title="Docent geschiedenis" image="/images/team/martin-de-veen-docent-geschiedenis.jpg" />
                         <TeamMember name="Sander Broekman" title="Docent scheikunde" image="/images/team/sander-broekman-docent-scheikunde.jpg" />
-                        <TeamMember name="Vanessa Moes" title="Docente bedrijfseconomie" image="/images/team/vanessa-moes-docente-bedrijfseconomie.jpg" />
                     </div>
                 </div>
             </div>
