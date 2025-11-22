@@ -27,7 +27,7 @@ export default function ContactPage() {
         <ContactBlock />
         <div className="bg-lichtblauw/34">
             <div className="base-container py-24">
-                <p className="p-0 max-w-[200px] mx-auto lg:mx-0">
+                <p className="p-0 mx-auto lg:mx-0">
                     <strong>{t('adress.companyName')}</strong><br/>
                     {t('adress.chamberOfCommerce')}<br/>
                     <strong><a href={`mailto:${t('adress.email')}`}>{t('adress.email')}</a><br/></strong>
