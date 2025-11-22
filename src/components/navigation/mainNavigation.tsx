@@ -43,6 +43,7 @@ export function MainNavigation({ colorInvert, open = false, onClose }: MainNavig
       <Navigation className={twMerge(
         colorInvert ? 'text-white' : ''
       )}>
+          <NavigationItem href="/" active={pathname === '/'}>{t('nav.home')}</NavigationItem>
           <NavigationItem href="/about" active={pathname === '/about'}>{t('nav.about')}</NavigationItem>
           <NavigationItem href="/platform" active={pathname === '/platform'}>{t('nav.platform')}</NavigationItem>
           <NavigationItem href="/team" active={pathname === '/team'}>{t('nav.team')}</NavigationItem>

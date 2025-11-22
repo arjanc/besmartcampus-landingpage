@@ -28,7 +28,7 @@ export default function LanguageSwitch() {
             }
             key={lng}
           >
-            {lng}
+            {lng.toUpperCase()}
           </Link>
           {index < languages.length - 1 && <span>/</span>}
         </React.Fragment>
