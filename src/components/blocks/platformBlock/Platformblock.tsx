@@ -1,11 +1,12 @@
 import CustomButton from '@/components/ui/custom-button';
 import { Videoplayer } from '@/components/videoplayer';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { PlatformItem } from './PlatformItem';
 
 export function Platformblock() {
     const t = useTranslations('home.platform');
+    const locale = useLocale();
     return (
         <div className="relative bg-lichtblauw/11 overflow-hidden">
             <div className="base-container py-26">
@@ -14,11 +15,16 @@ export function Platformblock() {
                     <p className="p-0">{t('description')}</p>
                 </div>
                 <Videoplayer
-                    sources={[
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_sd_.mp4", media:"(max-width: 600px)"},
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_hd_.mp4", media:"(max-width: 1200px)"},
-                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_fullhd_.mp4"}
-                      ]}
+                    sources={
+                        locale === 'nl' ? [
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_sd_.mp4", media:"(max-width: 600px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_hd_.mp4", media:"(max-width: 1200px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/productvideo_fullhd_.mp4"}
+                        ] : [
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/productvideo_480p.mp4", media:"(max-width: 600px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/productvideo_720p.mp4", media:"(max-width: 1200px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/productvideo_1080p.mp4"}
+                        ]}
                     thumbnailUrl="/images/video-thumbnail-platform.png"
                     showPlayButton={true}
                 />

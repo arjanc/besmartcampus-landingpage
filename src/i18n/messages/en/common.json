@@ -1,9 +1,10 @@
 {
+  "videoCaption": "Watch the video above to see it in action.",
   "nav": {
     "home": "Home",
-    "about": "About",
+    "about": "About us",
     "contact": "Contact",
-    "platform": "Platform",
+    "platform": "BeSmart Learning Platform",
     "team": "Team"
   },
   "seo": {

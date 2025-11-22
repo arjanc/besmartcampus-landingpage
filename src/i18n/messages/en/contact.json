@@ -1,31 +1,37 @@
 {
-  "title": "Veelgestelde vragen",
+  "title": "Frequently Asked Questions (FAQ)",
   "faq": {
-    "question1": "Is het veilig?",
-    "anwer1": "Ja. Het BeSmart Learning Platform draait in een beveiligde, afgeschermde omgeving. Geen advertenties, geen afleiding.",
-    "question2": "Is het gratis?",
-    "anwer2": "Scholen betalen een licentie. Voor leerlingen is het gebruik volledig gratis.",
-    "question3": "Hoe werkt het?",
-    "anwer3": "Leerlingen gaan naar het platform, krijgen uitleg, oefenen en krijgen realtime hulp van de AI. En via het dashboard heb je als leerling altijd het overzicht en houdt de docent de regie.",
-    "question4": "Hoe integreert het met bijvoorbeeld Magister?",
-    "anwer4": "Via een directe koppeling.",
-    "question5": "Hoeveel tijd kost het?",
-    "anwer5": "Het platform sluit aan op bestaande lesprogramma’s en examendomeinen. Geen extra werkdruk voor docenten."
+    "question1": "Is it safe?",
+    "anwer1": "Yes. The BeSmart Learning Platform runs in a secure, shielded environment. No advertisements, no distraction.",
+    "question2": "Is it free?",
+    "anwer2": "Schools pay a license. Usage is completely free for students.",
+    "question3": "How does it work?",
+    "anwer3": "Students go to the platform, receive explanations, practice, and get real-time help from the AI. And through the dashboard, the student always has an overview, and the teacher remains in control.",
+    "question4": "How does it integrate with systems like Magister?",
+    "anwer4": "Through a direct link/connection.",
+    "question5": "How much time does it cost?",
+    "anwer5": "The platform aligns with existing lesson programs and exam domains. No extra workload for teachers."
   },
   "contactblock": {
     "title": "Contact",
-    "description": "Vraag nu een demo aan en ontdek binnen 10 minuten hoe BeSmart jouw school of klas vooruithelpt – met AI die werkt, omdat het gebouwd is mét docenten. Al meer dan honderden leerlingen gebruiken het. En we staan pas aan het begin.",
+    "description": "Request a demo now and discover within 10 minutes how BeSmart helps your school or class progress - with AI that works, because it was built with teachers.",
     "fields": {
-      "name": "Naam",
-      "organisation": "school/organisatie",
-      "email": "e-mailadres",
-      "message": "Uw bericht"
+      "name": "Name",
+      "organisation": "School/organisation",
+      "email": "Email address",
+      "message": "Your message"
     },
-    "btnSend": "Verstuur",
-    "sending": "Bezig met versturen...",
+    "btnSend": "Send",
+    "sending": "Sending...",
     "thanks": {
-      "title": "Bedankt voor uw bericht!",
-      "description": "Uw bericht is succesvol verstuurd. We nemen zo snel mogelijk contact met u op"
+      "title": "Thank you for your message!",
+      "description": "Your message has been successfully sent. We will contact you as soon as possible"
     }
+  },
+  "adress": {
+    "companyName": "BeSmart Campus B.V.",
+    "chamberOfCommerce": "Chamber of Commerce (KvK): 12345678",
+    "email": "info@besmartcampus.nl",
+    "phone": "+31 20 561 6008"
   }
 }

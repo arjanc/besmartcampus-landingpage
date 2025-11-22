@@ -28,10 +28,10 @@ export default function ContactPage() {
         <div className="bg-lichtblauw/34">
             <div className="base-container py-24">
                 <p className="p-0 max-w-[200px] mx-auto lg:mx-0">
-                    <strong>BeSmart Campus B.V.</strong><br/>
-                    KvK: 12345678<br/>
-                    <strong><a href="mailto:info@besmartcampus.nl">info@besmartcampus.nl</a><br/></strong>
-                    <a href="tel:+31205616008">+31 20 561 6008</a>
+                    <strong>{t('adress.companyName')}</strong><br/>
+                    {t('adress.chamberOfCommerce')}<br/>
+                    <strong><a href={`mailto:${t('adress.email')}`}>{t('adress.email')}</a><br/></strong>
+                    <a href={`tel:${t('adress.phone')}`}>{t('adress.phone')}</a>
                 </p>
             </div>
         </div>

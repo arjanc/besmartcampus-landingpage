@@ -1,19 +1,19 @@
 {
   "intro": {
-    "title": "AI + onderwijs. Eén platform. Voor alle leerlingen.",
-    "introduction": "Het Nederlandse onderwijs staat onder druk. Steeds meer leerlingen lopen vast, de kansenongelijkheid groeit, en docenten raken overbelast. Tegelijkertijd biedt technologie ongekende kansen – als we het slim én veilig inzetten.",
-    "paragraph1": "BeSmart Campus luidt een nieuwe fase in waarin AI en docenten zij aan zij werken. Onze slimme, veilige AI-technologie helpt leerlingen leren op hun eigen niveau – met persoonlijke uitleg, oefening en ondersteuning. Docenten houden de regie, leerlingen krijgen grip. Zo bouwen we aan eerlijker, persoonlijker en effectiever onderwijs.",
-    "paragraph2": "Geen vervanging van het onderwijs, maar een krachtige aanvulling. Geen dure bijles voor de happy few, maar ondersteuning voor ieder kind – via school. Onze missie is helder: het reduceren van leerachterstanden en het bevorderen van kansengelijkheid in én met het voortgezet onderwijs.",
-    "buttonCTA": "Lees meer over Besmart campus"
+    "title": "AI + education. One platform. For all students.",
+    "introduction": "Dutch education is under pressure. More and more students are struggling, the opportunity gap is growing, and teachers are becoming overburdened. At the same time, technology offers unprecedented opportunities – if we deploy it smartly and safely.",
+    "paragraph1": "BeSmart Campus heralds a new phase in which AI and teachers work side by side. Our smart, safe AI technology helps students learn at their own level – with personal explanation, practice, and support. Teachers remain in control, students gain understanding. This is how we build fairer, more personal, and more effective education.",
+    "paragraph2": "Not a replacement, but a powerful supplement. Not expensive tutoring for the happy few, but support for every child – through school. Our mission is clear: reducing learning gaps and promoting equal opportunities in and with secondary education.",
+    "buttonCTA": "Read more about BeSmart Campus"
   },
   "platform": {
-    "title": "Het BeSmart Learning Platform AAA",
-    "description": "Het BeSmart Learning Platform is een digitale leeromgeving waarin leerlingen zelfstandig kunnen leren met hulp van AI. Ze krijgen toegang tot uitlegvideo&apos;s, opgaven en directe ondersteuning - precies wanneer ze het nodig hebben.",
-    "platformItem1": "<strong>persoonlijke AI-tutor</strong> die 24/7 klaar staat in een veilige, afgeschermde leeromgeving",
-    "platformItem2": "Unieke, <strong>Tiny Talks &trade;</strong>: duizenden korte, krachtige uitlegvideo&apos;s per onderwerp",
-    "platformItem3": "Meer dan <strong>100.000 oefenopgaven</strong> met realtime feedback",
-    "platformItem4": "<strong>Hoogwaardige content</strong>, ontwikkeld samen met scholen en docenten",
-    "platformItem5": "Volledige <strong>aansluiting op schoolmethodes</strong> en de centrale exameneisen",
-    "buttonCTA": "Lees meer over Besmart campus"
+    "title": "The BeSmart Learning Platform",
+    "description": "The BeSmart Learning Platform is a digital learning environment where students can learn independently with the help of AI. They gain access to explainer videos, assignments, and immediate support – precisely when they need it.",
+    "platformItem1": "<strong>personal AI-tutor</strong> available 24/7 in a safe, shielded learning environment",
+    "platformItem2": "Unique, <strong>Tiny Talks&trade;</strong>: thousands of short, powerful explainer videos per topic",
+    "platformItem3": "More than <strong>100,000 practice assignments</strong> with real-time feedback",
+    "platformItem4": "<strong>High-quality content</strong>, developed together with schools and teachers",
+    "platformItem5": "Full <strong>alignment with school methods</strong> and central examination requirements",
+    "buttonCTA": "Read more about BeSmart Campus"
   }
 }

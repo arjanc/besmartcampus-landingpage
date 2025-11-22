@@ -27,5 +27,11 @@
       "title": "Bedankt voor uw bericht!",
       "description": "Uw bericht is succesvol verstuurd. We nemen zo snel mogelijk contact met u op"
     }
+  },
+  "adress": {
+    "companyName": "BeSmart Campus B.V.",
+    "chamberOfCommerce": "KvK: 12345678",
+    "email": "info@besmartcampus.nl",
+    "phone": "+31 20 561 6008"
   }
 }

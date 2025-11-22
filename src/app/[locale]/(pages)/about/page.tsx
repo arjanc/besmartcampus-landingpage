@@ -1,19 +1,26 @@
 import Image from 'next/image';
 import { Videoplayer } from "@/components/videoplayer";
 import { IntroOverOnsBlock } from "@/components/blocks/introOverOnsBlock";
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function AboutPage() {
     const t = useTranslations('about');
+    const locale = useLocale();
     return (
         <>
         <div className="base-container pt-8 pb-24">
             <Videoplayer
-                sources={[
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_sd_.mp4", media:"(max-width: 600px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_hd_.mp4", media:"(max-width: 1200px)"},
-                    {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_fullhd_.mp4"}
-                ]}
+                sources={
+                    locale === 'nl' ? [
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_sd_.mp4", media:"(max-width: 600px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_hd_.mp4", media:"(max-width: 1200px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/lancering_kort_fullhd_.mp4"}
+                    ] : [
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/lancering_kort_480p.mp4", media:"(max-width: 600px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/lancering_kort_720p.mp4", media:"(max-width: 1200px)"},
+                        {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/lancering_kort_1080p.mp4"}
+                    ]
+                }
                 thumbnailUrl="/images/video-thumbnail-over.png"
                 showPlayButton={true}
             />

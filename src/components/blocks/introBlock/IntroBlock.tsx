@@ -1,9 +1,12 @@
 import CustomButton from '@/components/ui/custom-button';
 import { Videoplayer } from '@/components/videoplayer';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale} from 'next-intl';
 
 export function IntroBlock() {
     const t = useTranslations('home.intro');
+    const tCommon = useTranslations('common');
+    const locale = useLocale();
+
     return (
         <div className="relative z-1">
         <div className="relative z-1 base-container pb-24">
@@ -19,13 +22,19 @@ export function IntroBlock() {
                 </div>
                 <div className="flex flex-1 w-full items-center md:w-1/2">
                     <Videoplayer
-                        sources={[
+                        sources={
+                        locale === 'nl' ? [
                             {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-480p.mp4", media:"(max-width: 600px)"},
                             {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-720p.mp4", media:"(max-width: 1200px)"},
                             {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-1080p.mp4"}
-                          ]}
+                          ] : [
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/aftermovie-besmart-campus-leerfestival_480p.mp4", media:"(max-width: 600px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/aftermovie-besmart-campus-leerfestival_720p.mp4", media:"(max-width: 1200px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/aftermovie-besmart-campus-leerfestival_1080p.mp4"}
+                          ]
+                        }
                         thumbnailUrl="/images/video-thumbnail-1.png"
-                        caption="Bekijk de video hierboven om het in actie te zien."
+                        caption={tCommon('videoCaption')}
                     />
                 </div>
             </div>
