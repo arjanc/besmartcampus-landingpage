@@ -18,7 +18,7 @@ export function IntroBlock() {
                     </p>
                     <p>{t('paragraph1')}</p>
                     <p>{t('paragraph2')}</p>
-                    <CustomButton href="/over-ons" variant="primary">{t('buttonCTA')}</CustomButton>
+                    <CustomButton href="/about" variant="primary">{t('buttonCTA')}</CustomButton>
                 </div>
                 <div className="flex flex-1 w-full items-center md:w-1/2">
                     <Videoplayer

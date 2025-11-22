@@ -1,5 +1,6 @@
 import React from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
+import Link from '@/components/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { cn } from '@/lib/utils';
@@ -74,7 +75,10 @@ export default function CustomButton({
       );
     }
     return (
-      <Link href={props.href} className={baseClasses}>
+      <Link
+        href={props.href}
+        className={baseClasses}
+      >
         {content}
       </Link>
     );

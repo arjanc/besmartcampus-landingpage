@@ -51,7 +51,7 @@ export function Platformblock() {
                     </PlatformItem>
                 </div>
                 <div className="w-full flex items-center">
-                    <CustomButton className="mx-auto" href="/over-ons" variant="primary">{t('buttonCTA')}</CustomButton>
+                    <CustomButton className="mx-auto" href="/about" variant="primary">{t('buttonCTA')}</CustomButton>
                 </div>
             </div>
             <Image src="/images/logo-element-1.svg" className="absolute -bottom-[110px] z-1 left-0" alt="BSC logo element" width={144} height={177} sizes="144px"/>
