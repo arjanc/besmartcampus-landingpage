@@ -1,0 +1,40 @@
+{
+  "title": "The team",
+  "description": "Our teachers not only work on new lesson material for BeSmart Campus but also still teach in the classroom every week. This guarantees that our lesson material truly aligns well with daily practice!",
+  "members": {
+    "dennis-rot": {
+      "name": "Dennis Rot",
+      "title": "Founder BeSmart Campus"
+    },
+    "bas-van-hassel": {
+      "name": "Bas van Hassel",
+      "title": "Physics Teacher"
+    },
+    "christiaan-mensink": {
+      "name": "Christiaan Mensink",
+      "title": "Economics and Business Economics Teacher"
+    },
+    "jasper-heesbeen": {
+      "name": "Jasper Heesbeen",
+      "title": "Mathematics Teacher"
+    },
+    "juliette-alders": {
+      "name": "Juliette Alders",
+      "title": "Mathematics Teacher"
+    },
+    "marloes-willemse": {
+      "name": "Marloes Willemse",
+      "title": "Geography Teacher"
+    },
+    "martin-de-veen": {
+      "name": "Martin de Veen",
+      "title": "History Teacher"
+    },
+    "sander-broekman": {
+      "name": "Sander Broekman",
+      "title": "Chemistry Teacher"
+    }
+  },
+  "partner": "Partner"
+}
+  

@@ -1,9 +1,7 @@
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 
 import { MainNavigation } from '@/components/navigation';
-import CustomButton from '@/components/ui/custom-button';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

@@ -1,0 +1,32 @@
+{
+  "title": "Het BeSmart Learning Platform",
+  "description": "Het BeSmart Learning Platform is een digitale leeromgeving waarin leerlingen zelfstandig kunnen leren met hulp van AI. Ze krijgen toegang tot uitlegvideo’s, opgaven en directe ondersteuning – precies wanneer ze het nodig hebben.",
+  "usp": {
+    "1": "Een <strong>persoonlijke AI-tutor</strong> die 24/7 klaar staat in een veilige, afgeschermde leeromgeving",
+    "2": "Unieke <strong>Tiny Talks&trade;</strong>: duizenden korte, krachtige uitlegvideo’s per onderwerp",
+    "3": "Meer dan <strong>100.000 oefenopgaven</strong> met realtime feedback",
+    "4": "<strong>Hoogwaardige content</strong>, ontwikkeld samen met scholen en docenten",
+    "5": "Volledige <strong>aansluiting op schoolmethodes</strong> en de centrale exameneisen"
+  },
+  "section": {
+    "column-1": {
+      "title": "voor wie is het bedoeld?",
+      "description": "Voor havo- en vwo-leerlingen in de bovenbouw die willen oefenen, begrijpen én groeien. Voor scholen die leerlingen maatwerk willen bieden, toetsvoorbereiding willen versterken of kort verzuim makkelijk willen opvangen - zonder extra werkdruk."
+    },
+    "column-2": {
+      "title": "wat maakt het uniek?",
+      "list": {
+        "item-1": "<strong>Persoonlijke AI-tutor</strong> - 24/7 beschikbaar in een veilige, afgeschermde omgeving, zonder afleiding of ruis.",
+        "item-2": "<strong>Tiny Talks&trade; uitlegvideo’s</strong> - zodat leerlingen snel en helder de kern van een onderwerp begrijpen.",
+        "item-3": "<strong>Realtime feedback op 100.000+ opgaven</strong> - directe oefening versterkt het begrip.",
+        "item-4": "<strong>Gemaakt mét scholen en docenten</strong> - de inhoud sluit naadloos aan op het curriculum én de lespraktijk.",
+        "item-5": "<strong>Geen commerciële bijles</strong> - maar een oplossing die via school voor álle leerlingen beschikbaar is."
+      }
+    }
+  },
+  "demo": {
+    "title": "Zien hoe het werkt?",
+    "description": "Vraag nu een demo aan en ontdek binnen 10 minuten hoe BeSmart jouw school of klas vooruithelpt – met AI die werkt, omdat het gebouwd is mét docenten. Al meer dan honderden leerlingen gebruiken het. En we staan pas aan het begin.",
+    "button": "Vraag een demo aan"
+  }
+}

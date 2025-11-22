@@ -1,0 +1,33 @@
+{
+    "title": "The BeSmart Learning Platform",
+    "description": "The BeSmart Learning Platform is a digital learning environment where students can learn independently with the help of AI. They gain access to explainer videos, assignments, and direct support – precisely when they need it.",
+    "usp": {
+      "1": "A <strong>personal AI tutor</strong> that is available 24/7 in a safe, shielded learning environment.",
+      "2": "Unique <strong>Tiny Talks&trade;</strong>: thousands of short, powerful explainer videos per topic.",
+      "3": "More than <Strong>100,000 practice assignments</strong> with real-time feedback.",
+      "4": "<strong>High-quality content</strong>, developed in collaboration with schools and teachers",
+      "5": "Full <strong>alignment with school methods</strong> and central examination requirements."
+    },
+    "section": {
+      "column-1": {
+        "title": "Who is it for?",
+        "description": "For upper secondary (havo and vwo) students who want to practice, understand, and grow. For schools that want to offer personalized learning to students, strengthen test preparation, or easily accommodate short-term absenteeism - without extra workload."
+      },
+      "column-2": {
+        "title": "What makes it unique?",
+        "list": {
+          "item-1": "<strong>Personal AI tutor</strong> - available 24/7 in a safe, shielded environment, without distraction or noise.",
+          "item-2": "<strong>Tiny Talks&trade; explanatory videos</strong> - helping students quickly and clearly understand the core of a subject.",
+          "item-3": "<strong>Real-time feedback on 100,000+ assignments</strong> - immediate practice reinforces understanding.",
+          "item-4": "<strong>Developed together with schools and teachers</strong> - the content aligns seamlessly with the curriculum and classroom practice.",
+          "item-5": "<strong>Not commercial tutoring</strong> - but a solution that is available to all students through school."
+        }
+      }
+    },
+    "demo": {
+      "title": "Want to see how it works?",
+      "description": "Request a demo now and discover within 10 minutes how BeSmart can help your school or class move forward - with AI that works because it was built with teachers. Hundreds of students are already using it. And we're just getting started.",
+      "button": "Request a demo"
+    }
+  }
+  

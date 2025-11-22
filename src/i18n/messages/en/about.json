@@ -1,0 +1,39 @@
+{
+    "title": "About BeSmart Campus",
+    "description": "Dutch education is under pressure. More and more students are struggling, the opportunity gap is growing, and teachers are becoming overburdened. At the same time, technology offers unprecedented opportunities – if we deploy it smartly and safely.",
+    "introParagraph2": "BeSmart Campus heralds a new phase in which AI and teachers work side by side. Our smart, safe AI technology helps students learn at their own level – with personal explanation, practice, and support. Teachers remain in control, students gain understanding. This is how we build fairer, more personal, and more effective education.",
+    "introParagraph3": "Not a replacement for education, but a powerful supplement. Not expensive tutoring for the happy few, but support for every child – through school.",
+    "wie-zijn-wij": {
+      "title": "Who are we?",
+      "paragraph1": "BeSmart Campus was born out of the belief that every child deserves the opportunity to learn and understand. What started with a different explanation in a math class grew into the first BeSmart Learning Festivals in 2022: physical gatherings where students worked on their knowledge in a playful and motivating way together with BeSmart experts.",
+      "paragraph2": "Based on these insights, we developed the BeSmart Learning Platform in 2025: a secure AI tutor that helps students learn at their own level. We work together with teachers, schools, and education professionals to use technology to reinforce -not replace- the power of education."
+    },
+    "onze-missie": {
+      "title": "Our Mission",
+      "paragraph": "Our mission: reducing learning gaps and promoting equal opportunities together with schools. Because every student deserves a fair chance. Not with expensive tutoring for the happy few, but with technology that works for everyone. By smartly combining AI with the power of the teacher, we make education fairer, more personal, and more effective. No child is left behind. No talent goes unused.",
+      "column-1": {
+        "title": "Inventive",
+        "paragraph": "We make the difficult easy"
+      },
+      "column-2": {
+        "title": "Fun",
+        "paragraph": "We make learning fun"
+      },
+      "column-3": {
+        "title": "Innovative",
+        "paragraph": "We really do things differently"
+      },
+      "column-4": {
+        "title": "Accessible",
+        "paragraph": "We are here for everyone"
+      }
+    },
+    "quote": {
+      "text": "From struggling student to builder of BeSmart Campus.",
+      "name": "drs. Dennis Rot",
+      "role": "Founder BeSmart Campus"
+    },
+    "endParagraph1": "During my pre-university (vwo) period, I completely failed at mathematics. Until one teacher explained it differently - and everything fell into place. It was the start of a wonderful journey, culminating in degrees in business mathematics, computer science, economics, and econometrics.",
+    "endParagraph2": "I wish that single moment of understanding for every child. That's why I started BeSmart Campus: everyone can understand it, if it is explained well. Since 2021, I have been working with teachers to develop unique content that makes school subjects easier to understand and more enjoyable. We started out in schools with our BeSmart Learning Festivals, and now we have a unique, AI-based learning platform: the BeSmart Learning Platform.<br/>This ensures that no child is left behind and no talent goes untapped. Learning is only fun when you understand it!"
+}
+  

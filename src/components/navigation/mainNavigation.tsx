@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Navigation } from './Navigation';
 import { NavigationItem } from './NavigationItem';
-import { usePathname } from 'next/navigation';
+import { usePathname } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 interface MainNavigationProps {
     colorInvert?: boolean;
@@ -17,6 +18,7 @@ interface MainNavigationProps {
 export function MainNavigation({ colorInvert, open = false, onClose }: MainNavigationProps) {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations('common');
 
   useEffect(() => {
     setIsOpen(open);
@@ -41,10 +43,10 @@ export function MainNavigation({ colorInvert, open = false, onClose }: MainNavig
       <Navigation className={twMerge(
         colorInvert ? 'text-white' : ''
       )}>
-          <NavigationItem href="/over-ons" active={pathname === '/over-ons'} >Over ons</NavigationItem>
-          <NavigationItem href="/platform" active={pathname === '/platform'} >BeSmart Learning Platform</NavigationItem>
-          <NavigationItem href="/team" active={pathname === '/team'} >Team</NavigationItem>
-          <NavigationItem href="/contact" active={pathname === '/contact'} >Contact</NavigationItem>
+          <NavigationItem href="/about" active={pathname === '/about'}>{t('nav.about')}</NavigationItem>
+          <NavigationItem href="/platform" active={pathname === '/platform'}>{t('nav.platform')}</NavigationItem>
+          <NavigationItem href="/team" active={pathname === '/team'}>{t('nav.team')}</NavigationItem>
+          <NavigationItem href="/contact" active={pathname === '/contact'}>{t('nav.contact')}</NavigationItem>
       </Navigation>
     </div>
   );

@@ -1,0 +1,19 @@
+{
+  "intro": {
+    "title": "AI + education. One platform. For all students.",
+    "introduction": "Dutch education is under pressure. More and more students are struggling, the opportunity gap is growing, and teachers are becoming overburdened. At the same time, technology offers unprecedented opportunities – if we deploy it smartly and safely.",
+    "paragraph1": "BeSmart Campus heralds a new phase in which AI and teachers work side by side. Our smart, safe AI technology helps students learn at their own level – with personal explanation, practice, and support. Teachers remain in control, students gain understanding. This is how we build fairer, more personal, and more effective education.",
+    "paragraph2": "Not a replacement, but a powerful supplement. Not expensive tutoring for the happy few, but support for every child – through school. Our mission is clear: reducing learning gaps and promoting equal opportunities in and with secondary education.",
+    "buttonCTA": "Read more about BeSmart Campus"
+  },
+  "platform": {
+    "title": "The BeSmart Learning Platform",
+    "description": "The BeSmart Learning Platform is a digital learning environment where students can learn independently with the help of AI. They gain access to explainer videos, assignments, and immediate support – precisely when they need it.",
+    "platformItem1": "<strong>personal AI-tutor</strong> available 24/7 in a safe, shielded learning environment",
+    "platformItem2": "Unique, <strong>Tiny Talks&trade;</strong>: thousands of short, powerful explainer videos per topic",
+    "platformItem3": "More than <strong>100,000 practice assignments</strong> with real-time feedback",
+    "platformItem4": "<strong>High-quality content</strong>, developed together with schools and teachers",
+    "platformItem5": "Full <strong>alignment with school methods</strong> and central examination requirements",
+    "buttonCTA": "Read more about BeSmart Campus"
+  }
+}

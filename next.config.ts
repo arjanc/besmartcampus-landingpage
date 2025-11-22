@@ -1,17 +1,19 @@
-import type { NextConfig } from "next";
-import path from 'path';
+import type { NextConfig } from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   images: {
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "api.builder.io",
+        protocol: 'https',
+        hostname: 'api.builder.io',
       },
     ],
   },
-  output: "standalone"
+  output: 'standalone',
+  turbopack: {}, // This is essential
 };
 
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin();
+
+export default withNextIntl(nextConfig);

@@ -1,0 +1,40 @@
+{
+  "title": "Het team",
+  "description": "Onze docenten werken niet alleen aan nieuwe lesstof voor BeSmart Campus, maar staan ook iedere week nog als docent voor de klas. Dit garandeert dat onze lesstof écht goed aansluit bij de dagelijkse praktijk!",
+  "members": {
+    "dennis-rot": {
+      "name": "Dennis Rot",
+      "title": "Oprichter BeSmart Campus"
+    },
+    "bas-van-hassel": {
+      "name": "Bas van Hassel",
+      "title": "Docent natuurkunde"
+    },
+    "christiaan-mensink": {
+      "name": "Christiaan Mensink",
+      "title": "Docent economie en bedrijfseconomie"
+    },
+    "jasper-heesbeen": {
+      "name": "Jasper Heesbeen",
+      "title": "Docent wiskunde"
+    },
+    "juliette-alders": {
+      "name": "Juliette Alders",
+      "title": "Docente wiskunde"
+    },
+    "marloes-willemse": {
+      "name": "Marloes Willemse",
+      "title": "Docente aardrijkskunde"
+    },
+    "martin-de-veen": {
+      "name": "Martin de Veen",
+      "title": "Docent geschiedenis"
+    },
+    "sander-broekman": {
+      "name": "Sander Broekman",
+      "title": "Docent scheikunde"
+    }
+  },
+  "partner": "Partner"
+}
+  

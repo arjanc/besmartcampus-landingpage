@@ -1,10 +1,13 @@
 
 import { twMerge } from "tailwind-merge";
 import Image from "next/image";
+import { useLocale } from "next-intl";
 
-import heroImg from '../../../public/images/leren-is-leuk-als-je-het-snapt.png';
+import heroImgNL from '../../../public/images/leren-is-leuk-als-je-het-snapt.png';
+import heroImgEN from '../../../public/images/learning-is-fun-when-you-get-it.png';
 
 export function HeroHome({ className }: { className?: string }) {
+    const locale = useLocale();
     return (
         <div className="relative">
             <div className={twMerge("base-container mb-24", className)}>
@@ -13,7 +16,7 @@ export function HeroHome({ className }: { className?: string }) {
                 <div className="relative z-0 lg:-mt-[30px]">
                     <div className="z-2 aspect-[22/9]">
                              <Image 
-                                src={heroImg}
+                                src={locale === 'nl' ? heroImgNL : heroImgEN}
                                 alt="Woman with books"
                                 width={1112}
                                 height={498}

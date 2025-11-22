@@ -1,29 +1,40 @@
 import CustomButton from '@/components/ui/custom-button';
 import { Videoplayer } from '@/components/videoplayer';
+import { useTranslations, useLocale} from 'next-intl';
 
 export function IntroBlock() {
+    const t = useTranslations('home.intro');
+    const tCommon = useTranslations('common');
+    const locale = useLocale();
+
     return (
         <div className="relative z-1">
         <div className="relative z-1 base-container pb-24">
             <div className="flex flex-col md:flex-row flex-wrap gap-18">
                 <div className="flex-1 w-full md:w-1/2 text-donkerblauw">
-                    <h3 className="mb-4">AI + onderwijs. Eén platform. Voor alle leerlingen.</h3>
+                    <h3 className="mb-4">{t('title')}</h3>
                     <p className="font-bold">
-                    Het Nederlandse onderwijs staat onder druk. Steeds meer leerlingen lopen vast, de kansenongelijkheid groeit, en docenten raken overbelast. Tegelijkertijd biedt technologie ongekende kansen – als we het slim én veilig inzetten.
+                    {t('introduction')}
                     </p>
-                    <p>BeSmart Campus luidt een nieuwe fase in waarin AI en docenten zij aan zij werken. Onze slimme, veilige AI-technologie helpt leerlingen leren op hun eigen niveau – met persoonlijke uitleg, oefening en ondersteuning. Docenten houden de regie, leerlingen krijgen grip. Zo bouwen we aan eerlijker, persoonlijker en effectiever onderwijs.</p>
-                    <p>Geen vervanging van het onderwijs, maar een krachtige aanvulling. Geen dure bijles voor de happy few, maar ondersteuning voor ieder kind – via school. Onze missie is helder: het reduceren van leerachterstanden en het bevorderen van kansengelijkheid in én met het voortgezet onderwijs.</p>
-                    <CustomButton href="/over-ons" variant="primary">Lees meer over Besmart campus</CustomButton>
+                    <p>{t('paragraph1')}</p>
+                    <p>{t('paragraph2')}</p>
+                    <CustomButton href="/over-ons" variant="primary">{t('buttonCTA')}</CustomButton>
                 </div>
                 <div className="flex flex-1 w-full items-center md:w-1/2">
                     <Videoplayer
-                        sources={[
+                        sources={
+                        locale === 'nl' ? [
                             {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-480p.mp4", media:"(max-width: 600px)"},
                             {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-720p.mp4", media:"(max-width: 1200px)"},
                             {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/aftermovie-besmart-campus-leerfestival-1080p.mp4"}
-                          ]}
+                          ] : [
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/aftermovie-besmart-campus-leerfestival_480p.mp4", media:"(max-width: 600px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/aftermovie-besmart-campus-leerfestival_720p.mp4", media:"(max-width: 1200px)"},
+                            {"src": "https://storage.googleapis.com/gcs-pj-ai-mvp-tmp-prod-videos/en/aftermovie-besmart-campus-leerfestival_1080p.mp4"}
+                          ]
+                        }
                         thumbnailUrl="/images/video-thumbnail-1.png"
-                        caption="Bekijk de video hierboven om het in actie te zien."
+                        caption={tCommon('videoCaption')}
                     />
                 </div>
             </div>

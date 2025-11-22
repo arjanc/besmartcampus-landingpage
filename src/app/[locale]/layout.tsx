@@ -10,6 +10,10 @@ import { Footer } from "@/components/footer";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {routing} from '@/i18n/routing';
+import {notFound} from 'next/navigation';
+
 
 const funnelSans = Funnel_Sans({
   variable: "--font-funnel-sans",
@@ -44,27 +48,39 @@ export const metadata: Metadata = {
   manifest: '/manifest.json'
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{locale: string}>;
 }>) {
   const fontClasses = [CocoGooseFont.variable].join(' ');
 
+  // Ensure that the incoming `locale` is valid
+  const {locale} = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  // const locale = await getLocale();
+  // const messages = await getMessages();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body
         className={twMerge('h-full', fontClasses, `${funnelSans.variable} antialiased`)}
       >
-        <GoogleAnalytics gaId="G-F8YQ7RZ8WR" />
-        <div className="flex flex-col min-h-screen overflow-hidden">
-          <Header />
-          <main className="flex-1">
-            {children}
-          </main>
-          <Footer />
-        </div>
+        <NextIntlClientProvider locale={locale}>
+          <GoogleAnalytics gaId="G-F8YQ7RZ8WR" />
+          <div className="flex flex-col min-h-screen overflow-hidden">
+            <Header />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
