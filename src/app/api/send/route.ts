@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
 
     const response = await resend.emails.send({
       from: 'contact-besmart@resend.dev', // Use your domain or Resend default
-      to: 'info+besmartcampus@celar.nl', // Send to any address submitted from the form
+      to: 'dennis.rot@besmartcampus.nl', // Send to any address submitted from the form
       subject: subject || 'Contact formulier ingevuld',
       react: EmailTemplate({ name, organization, email, message }), // Custom template
     });
