@@ -5,6 +5,7 @@ import { twMerge } from "tailwind-merge";
 import Image from 'next/image';
 import CustomButton from '@/components/ui/custom-button';
 import { useTranslations } from 'next-intl';
+import { Turnstile } from '@marsidev/react-turnstile';
 
 interface IContactBlock {
     className?: string;
@@ -14,9 +15,16 @@ export const ContactBlock = ({ className }: IContactBlock) => {
     const t = useTranslations('contact');
     const [submitting, setSubmitting] = useState(false);
     const [success, setSuccess] = useState(false);
+    const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        
+        if (!turnstileToken) {
+            console.error('Turnstile token is required');
+            return;
+        }
+        
         setSubmitting(true);
         
         const formData = new FormData(e.currentTarget);
@@ -24,7 +32,8 @@ export const ContactBlock = ({ className }: IContactBlock) => {
             name: formData.get('name'),
             organization: formData.get('organization'),
             email: formData.get('email'),
-            message: formData.get('message')
+            message: formData.get('message'),
+            turnstileToken
         };
 
         // sending to api
@@ -88,11 +97,27 @@ export const ContactBlock = ({ className }: IContactBlock) => {
                     <div className="lg:col-span-7">
                         <textarea 
                             name="message"
-                            className="bg-white w-full min-h-[200px] rounded-xl border-donkerblauw border-1 p-4 font-bold outline-none mb-12" 
+                            className="bg-white w-full min-h-[200px] rounded-xl border-donkerblauw border-1 p-4 font-bold outline-none mb-6" 
                             placeholder={t('contactblock.fields.message')} 
                         />
+                        <div className="mb-6">
+                            <Turnstile 
+                                siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY || ''}
+                                onSuccess={(token) => setTurnstileToken(token)}
+                                onExpire={() => setTurnstileToken(null)}
+                                onError={() => setTurnstileToken(null)}
+                                options={{
+                                    action: 'submit-form',
+                                    theme: 'light',
+                                    size: 'flexible',
+                                    language: 'nl',
+                                }}
+                            />
+                        </div>
                         <div>
-                            <CustomButton type="submit">{t('contactblock.btnSend')}</CustomButton>
+                            <CustomButton type="submit" disabled={!turnstileToken || submitting}>
+                                {t('contactblock.btnSend')}
+                            </CustomButton>
                             {submitting && <span className="ml-4">{t('contactblock.sending')}</span>}
                         </div>
                     </div>
