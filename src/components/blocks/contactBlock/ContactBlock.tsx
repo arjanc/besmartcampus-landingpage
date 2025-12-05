@@ -4,7 +4,7 @@ import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import Image from 'next/image';
 import CustomButton from '@/components/ui/custom-button';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Turnstile } from '@marsidev/react-turnstile';
 
 interface IContactBlock {
@@ -13,6 +13,7 @@ interface IContactBlock {
 
 export const ContactBlock = ({ className }: IContactBlock) => {
     const t = useTranslations('contact');
+    const locale = useLocale();
     const [submitting, setSubmitting] = useState(false);
     const [success, setSuccess] = useState(false);
     const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
@@ -110,7 +111,7 @@ export const ContactBlock = ({ className }: IContactBlock) => {
                                     action: 'submit-form',
                                     theme: 'light',
                                     size: 'flexible',
-                                    language: 'nl',
+                                    language: locale,
                                 }}
                             />
                         </div>
