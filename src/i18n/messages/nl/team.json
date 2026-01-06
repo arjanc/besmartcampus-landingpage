@@ -6,6 +6,34 @@
       "name": "Dennis Rot",
       "title": "Oprichter BeSmart Campus"
     },
+    "paul": {
+      "name": "Paul",
+      "title": "CEO"
+    },
+    "lysander": {
+      "name": "Lysander Herrewijn",
+      "title": "AI engineer"
+    },
+    "stijn": {
+      "name": "Stijn Bakker Klooster",
+      "title": "Head of platform"
+    },
+    "stefan": {
+      "name": "Stefan Westerink",
+      "title": "Content coordinator"
+    },
+    "jacobine": {
+      "name": "Jacobine van der",
+      "title": "Legal council"
+    },
+    "michel": {
+      "name": "Michel Visser",
+      "title": "Advisor"
+    },
+    "roelof": {
+      "name": "Roelof",
+      "title": "Advisor"
+    },
     "bas-van-hassel": {
       "name": "Bas van Hassel",
       "title": "Docent natuurkunde"
@@ -33,8 +61,12 @@
     "sander-broekman": {
       "name": "Sander Broekman",
       "title": "Docent scheikunde"
+    },
+    "judith-luiken": {
+      "name": "Judith Luiken",
+      "title": "Docent Biologie"
     }
   },
-  "partner": "Partner"
+  "partner": "Partner",
+  "title-docenten": "Onze docenten"
 }
-  
