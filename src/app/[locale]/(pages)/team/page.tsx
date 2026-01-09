@@ -13,7 +13,7 @@ export default function TeamPage() {
                     <p className="font-bold lg:max-w-md mx-auto">
                         {t("description")}
                     </p>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-18 mb-8">
+                    <div className="px-10 sm:px-20 md:px-0 grid md:grid-cols-2 lg:grid-cols-3 gap-18 mb-8">
                         <TeamMember name={t("members.dennis-rot.name")} title={t("members.dennis-rot.title")} image="/images/team/dennis-rot-oprichter-besmart-campus.jpg" />
                         <TeamMember name={t("members.paul.name")} title={t("members.paul.title")} image="/images/team/paul.jpg" />
                         <TeamMember name={t("members.lysander.name")} title={t("members.lysander.title")} image="/images/team/lysander.jpg" />
@@ -24,8 +24,8 @@ export default function TeamPage() {
                         <TeamMember name={t("members.michel.name")} title={t("members.michel.title")} image="/images/team/michel.jpg" />
                         <TeamMember name={t("members.roelof.name")} title={t("members.roelof.title")} image="/images/team/roelof.jpg" />
                     </div>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-18">
-                        <div className="col-span-3">
+                    <div className="px-10 sm:px-20 md:px-0 grid md:grid-cols-2 lg:grid-cols-3 gap-18">
+                        <div className="md:col-span-2 lg:col-span-3">
                             <h3 className="text-2xl font-bold">{t("title-docenten")}</h3>
                         </div>
                         <TeamMember name={t("members.jasper-heesbeen.name")} title={t("members.jasper-heesbeen.title")} image="/images/team/jasper-heesbeen-docent-wiskunde.jpg" />
