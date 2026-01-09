@@ -10,10 +10,10 @@ interface TeamMemberProps {
 export const TeamMember = ({ className, name, title, image }: TeamMemberProps) => {
     return (
         <div className={className}>
-            <div className="relative aspect-square rounded-xl overflow-hidden mb-8">
+            <div className="relative bg-gray-200 aspect-square rounded-full overflow-hidden mb-8">
                 <Image
                     src={image}
-                    alt="Team"
+                    alt="Team member"
                     fill
                     className="object-cover"
                     sizes="475px"
