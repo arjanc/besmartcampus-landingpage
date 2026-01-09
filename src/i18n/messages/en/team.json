@@ -7,7 +7,7 @@
       "title": "Founder BeSmart Campus"
     },
     "paul": {
-      "name": "Paul",
+      "name": "Paul Arts",
       "title": "CEO"
     },
     "lysander": {
@@ -15,15 +15,15 @@
       "title": "AI engineer"
     },
     "stijn": {
-      "name": "Stijn Bakker Klooster",
+      "name": "Stijn Bakker",
       "title": "Head of platform"
     },
     "stefan": {
-      "name": "Stefan Westerink",
+      "name": "Stefan Oosterink",
       "title": "Content coordinator"
     },
     "jacobine": {
-      "name": "Jacobine van der",
+      "name": "Jacobine van der Klooster",
       "title": "Legal council"
     },
     "michel": {
@@ -31,8 +31,12 @@
       "title": "Advisor"
     },
     "roelof": {
-      "name": "Roelof",
+      "name": "Roelof Hendriks",
       "title": "Advisor"
+    },
+    "nadine": {
+      "name": "Nadine Maas",
+      "title": "Virtual assistant"
     },
     "bas-van-hassel": {
       "name": "Bas van Hassel",

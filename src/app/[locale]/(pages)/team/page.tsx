@@ -18,8 +18,9 @@ export default function TeamPage() {
                         <TeamMember name={t("members.paul.name")} title={t("members.paul.title")} image="/images/team/paul.jpg" />
                         <TeamMember name={t("members.lysander.name")} title={t("members.lysander.title")} image="/images/team/lysander.jpg" />
                         <TeamMember name={t("members.stijn.name")} title={t("members.stijn.title")} image="/images/team/stijn.jpg" />
-                        <TeamMember name={t("members.stefan.name")} title={t("members.stefan.title")} image="/images/team/stefan.jpg" />
+                        <TeamMember name={t("members.stefan.name")} title={t("members.stefan.title")} image="/images/team/stefan.png" />
                         <TeamMember name={t("members.jacobine.name")} title={t("members.jacobine.title")} image="/images/team/jacobine.jpg" />
+                        <TeamMember name={t("members.nadine.name")} title={t("members.nadine.title")} image="/images/team/nadine.jpg" />
                         <TeamMember name={t("members.michel.name")} title={t("members.michel.title")} image="/images/team/michel.jpg" />
                         <TeamMember name={t("members.roelof.name")} title={t("members.roelof.title")} image="/images/team/roelof.jpg" />
                     </div>
