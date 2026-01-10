@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0 24px;
+
+    background-image: url("https://besmartcampus.com/login/student.png"), url('https://besmartcampus.com/login/element-1.svg'), url('https://besmartcampus.com/login/element-2.svg');
+
+    /* Positioning: First value matches first image, second matches second */
+    background-position: right 40px bottom, top right, bottom right;
+
+    /* Prevent the SVGs from tiling */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+
+    /* Ensure they stay at their original dimensions */
+    background-size: auto 50vh, auto 30px, auto 70vh;
+
+    position: relative;
+}
+
+.main-container {
+    border-radius: 20px;
+    border: 0;
+    background-color: #8FB1DD;
+    box-shadow: none;
+    width: 100%;
+
+    height: auto;
+    color: #144A91;
+    margin-top: 120px;
+}
+
+.main-container:before {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    background-image: url('https://besmartcampus.com/login/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    aspect-ratio: 16/9;
+}
+
+@media (min-width:769px) {
+    body {
+        margin-right: 30%;
+        margin-left: 44px;
+        background-size: auto 80%, auto, auto 90vh;
+    }
+
+    .main-container {
+        max-width: 800px;
+    }
+}
+
+.heading-center {
+    color: white;
+}
