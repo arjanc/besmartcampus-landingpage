@@ -21,7 +21,7 @@ export default function TeamPage() {
                         <TeamMember name={t("members.stefan.name")} title={t("members.stefan.title")} image="/images/team/stefan.png" />
                         <TeamMember name={t("members.jacobine.name")} title={t("members.jacobine.title")} image="/images/team/jacobine.jpg" />
                         <TeamMember name={t("members.nadine.name")} title={t("members.nadine.title")} image="/images/team/nadine.jpg" />
-                        <TeamMember name={t("members.michel.name")} title={t("members.michel.title")} image="/images/team/michel.jpg" />
+                        <TeamMember name={t("members.michel.name")} title={t("members.michel.title")} image="/images/team/michel.png" />
                         <TeamMember name={t("members.roelof.name")} title={t("members.roelof.title")} image="/images/team/roelof.jpg" />
                     </div>
                     <div className="px-10 sm:px-20 md:px-0 grid md:grid-cols-2 lg:grid-cols-3 gap-18">
