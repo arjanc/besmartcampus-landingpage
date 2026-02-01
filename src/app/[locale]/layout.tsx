@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { twMerge } from 'tailwind-merge';
 import { CocoGooseFont } from '@/utils/fonts';
 import { Funnel_Sans } from "next/font/google";
-import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
+import { GoogleTagManager } from '@next/third-parties/google';
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -73,7 +73,6 @@ export default async function RootLayout({
         className={twMerge('h-full', fontClasses, `${funnelSans.variable} antialiased`)}
       >
         <NextIntlClientProvider locale={locale}>
-          <GoogleAnalytics gaId="G-F8YQ7RZ8WR" />
           <GoogleTagManager gtmId="GT-W6N652R" />
           <div className="flex flex-col min-h-screen overflow-hidden">
             <Header />
