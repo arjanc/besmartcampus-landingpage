@@ -2,17 +2,18 @@ import type { Metadata } from "next";
 import { twMerge } from 'tailwind-merge';
 import { CocoGooseFont } from '@/utils/fonts';
 import { Funnel_Sans } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 import "./globals.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
-import { config } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { routing } from '@/i18n/routing';
+import { notFound } from 'next/navigation';
+
 config.autoAddCss = false
-import {NextIntlClientProvider, hasLocale} from 'next-intl';
-import {routing} from '@/i18n/routing';
-import {notFound} from 'next/navigation';
 
 
 const funnelSans = Funnel_Sans({
@@ -53,12 +54,12 @@ export default async function RootLayout({
   params
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{locale: string}>;
+  params: Promise<{ locale: string }>;
 }>) {
   const fontClasses = [CocoGooseFont.variable].join(' ');
 
   // Ensure that the incoming `locale` is valid
-  const {locale} = await params;
+  const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
@@ -73,6 +74,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider locale={locale}>
           <GoogleAnalytics gaId="G-F8YQ7RZ8WR" />
+          <GoogleTagManager gtmId="GT-W6N652R" />
           <div className="flex flex-col min-h-screen overflow-hidden">
             <Header />
             <main className="flex-1">
