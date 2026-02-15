@@ -41,6 +41,35 @@ body {
     aspect-ratio: 16/9;
 }
 
+.heading-center {
+    color: white;
+}
+
+.firebaseui-page-provider-sign-in {
+    max-width: none;
+}
+
+.firebaseui-idp-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.firebaseui-list-item {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.firebaseui-idp-button {
+    height: 100%;
+}
+
+.mdl-button {
+    box-shadow: none;
+    border-radius: 8px;
+}
+
 @media (min-width:769px) {
     body {
         margin-right: 30%;
@@ -51,8 +80,8 @@ body {
     .main-container {
         max-width: 800px;
     }
-}
 
-.heading-center {
-    color: white;
+    .firebaseui-list-item {
+        width: auto;
+    }
 }

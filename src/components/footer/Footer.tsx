@@ -1,4 +1,4 @@
-import { Link } from '@/i18n/navigation';
+import Link from '@/components/link';
 import Image from 'next/image';
 
 import { MainNavigation } from '@/components/navigation';
@@ -22,8 +22,7 @@ export function Footer() {
                 </Link>
                 <MainNavigation colorInvert />
                 <div className="flex items-center justify-center ml-4">
-                    <a href="#"><FontAwesomeIcon icon={faInstagram} size="2xl" /></a>
-                    <a href="#"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
+                    <a href="https://www.linkedin.com/company/besmartcampus" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
                 </div>
             </div>
         </footer>

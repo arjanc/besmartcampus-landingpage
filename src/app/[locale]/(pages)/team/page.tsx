@@ -36,6 +36,8 @@ export default function TeamPage() {
                         <TeamMember name={t("members.bas-van-hassel.name")} title={t("members.bas-van-hassel.title")} image="/images/team/bas-van-hassel-docent-natuurkunde.png" />
                         <TeamMember name={t("members.sander-broekman.name")} title={t("members.sander-broekman.title")} image="/images/team/sander-broekman-docent-scheikunde.jpg" />
                         <TeamMember name={t("members.judith-luiken.name")} title={t("members.judith-luiken.title")} image="/images/team/judith.jpg" />
+                        <TeamMember name={t("members.kasper-van-bodegom.name")} title={t("members.kasper-van-bodegom.title")} image="/images/team/kasper-van-bodegom.jpg" />
+                        <TeamMember name={t("members.yassine-el-majoudi.name")} title={t("members.yassine-el-majoudi.title")} image="/images/team/yassine-el-majoudi.png" />
                     </div>
                 </div>
             </div>

@@ -1,9 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { usePathname, Link } from '@/i18n/navigation';
+import { usePathname } from '@/i18n/navigation';
+import Link from '@/components/link';
 import Image from 'next/image';
-import {twMerge} from 'tailwind-merge';
+import { twMerge } from 'tailwind-merge';
 import { MainNavigation } from '@/components/navigation';
 import LanguageSwitch from '@/components/languageSwitch';
 
@@ -35,39 +36,39 @@ export function Header() {
       isScrolled ? 'pt-38' : 'pt-12'
     )}>
       <div className={twMerge(
-          "transition-all duration-300 ease-in-out mx-4",
-          isScrolled ? 'fixed top-8 left-0 right-0' : ''
+        "transition-all duration-300 ease-in-out mx-4",
+        isScrolled ? 'fixed top-8 left-0 right-0' : ''
       )}>
-        <div 
+        <div
           className={twMerge(
             'base-container rounded-xl p-4 flex w-full transition-all duration-300 ease-in-out',
             isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-4'
           )}
         >
-        <div className="flex items-center pr-8 lg:hidden">
-          <FontAwesomeIcon icon={faBars} className="md:hidden" size="xl" onClick={() => setIsMenuOpen(!isMenuOpen)} />
-        </div>
-        <div className="flex flex-1 justify-center lg:flex-none lg:justify-start">
-          <Link className="flex items-center" href="/">
-            <div className={twMerge(
-              "",
-              isScrolled ? 'scale-80' : 'scale-100'
-            )}>
-              <Image
-                src="/images/logo.svg"
-                alt="BSC logo"
-                width={210}
-                height={79}
-                sizes="210px"
-                className="logo-image h-auto w-auto"
-                priority
-              />
-            </div>
-          </Link>
-        </div>
-        <MainNavigation open={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+          <div className="flex items-center pr-8 lg:hidden">
+            <FontAwesomeIcon icon={faBars} className="md:hidden" size="xl" onClick={() => setIsMenuOpen(!isMenuOpen)} />
+          </div>
+          <div className="flex flex-1 justify-center lg:flex-none lg:justify-start">
+            <Link className="flex items-center" href="/">
+              <div className={twMerge(
+                "",
+                isScrolled ? 'scale-80' : 'scale-100'
+              )}>
+                <Image
+                  src="/images/logo.svg"
+                  alt="BSC logo"
+                  width={210}
+                  height={79}
+                  sizes="210px"
+                  className="logo-image h-auto w-auto"
+                  priority
+                />
+              </div>
+            </Link>
+          </div>
+          <MainNavigation open={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
           <LanguageSwitch />
-      </div>
+        </div>
       </div>
     </header>
   );

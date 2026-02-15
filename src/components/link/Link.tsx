@@ -6,10 +6,10 @@ import { routing, type Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
 
 interface LinkProps extends Omit<NextLinkProps, 'href'> {
-    children: React.ReactNode;
-    className?: string;
-    href: string;
-    locale?: string; // Optional to override locale if needed
+  children: React.ReactNode;
+  className?: string;
+  href: string;
+  locale?: string; // Optional to override locale if needed
 }
 
 export default function Link({ href, locale, children, ...props }: LinkProps) {
@@ -22,9 +22,14 @@ export default function Link({ href, locale, children, ...props }: LinkProps) {
   const localizedHref = getPathname({ href, locale: localeToUse });
 
   // Remove the default locale prefix if present
-  const finalHref = localeToUse === defaultLocale && localizedHref.startsWith(`/${defaultLocale}`)
+  let finalHref = localeToUse === defaultLocale && localizedHref.startsWith(`/${defaultLocale}`)
     ? localizedHref.substring(`/${defaultLocale}`.length)
     : localizedHref;
+
+  // If finalHref is empty (which happens for the home page in default locale), set it to '/'
+  if (finalHref === '') {
+    finalHref = '/';
+  }
 
   return <NextLink href={finalHref} {...props} >{children}</NextLink>;
 }

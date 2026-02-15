@@ -129,6 +129,7 @@
   .font-cocogoose {
     font-family: var(--font-cocogoose);
   }
+
   .font-funnel {
     font-family: var(--font-funnel);
   }
@@ -138,17 +139,28 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-funnel);
     color: var(--color-donkerblauw);
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-cocogoose text-donkerblauw;
   }
 
   h3 {
     @apply text-[32px] leading-[34px] font-stretch-[-2px];
+  }
+
+  h4 {
+    @apply font-bold;
   }
 
   p {
@@ -158,9 +170,11 @@
   blockquote {
     @apply relative font-cocogoose text-3xl text-lichtblauw;
   }
+
   blockquote::before {
     content: open-quote;
   }
+
   blockquote::after {
     content: close-quote;
   }

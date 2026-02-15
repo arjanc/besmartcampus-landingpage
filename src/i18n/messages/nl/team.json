@@ -68,7 +68,15 @@
     },
     "judith-luiken": {
       "name": "Judith Luiken",
-      "title": "Docent Biologie"
+      "title": "Docent biologie"
+    },
+    "kasper-van-bodegom": {
+      "name": "Kasper van Bodegom",
+      "title": "Docent biologie"
+    },
+    "yassine-el-majoudi": {
+      "name": "Yassine el Majoudi",
+      "title": "Docent wiskunde"
     }
   },
   "partner": "Partner",

@@ -7,16 +7,18 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { Navigation } from './Navigation';
 import { NavigationItem } from './NavigationItem';
 import { usePathname } from '@/i18n/navigation';
+import { useLocale } from 'next-intl';
 import { useTranslations } from 'next-intl';
 
 interface MainNavigationProps {
-    colorInvert?: boolean;
-    open?: boolean;
-    onClose?: () => void;
+  colorInvert?: boolean;
+  open?: boolean;
+  onClose?: () => void;
 }
 
 export function MainNavigation({ colorInvert, open = false, onClose }: MainNavigationProps) {
   const pathname = usePathname();
+  const locale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations('common');
 
@@ -43,11 +45,12 @@ export function MainNavigation({ colorInvert, open = false, onClose }: MainNavig
       <Navigation className={twMerge(
         colorInvert ? 'text-white' : ''
       )}>
-          <NavigationItem href="/" active={pathname === '/'}>{t('nav.home')}</NavigationItem>
-          <NavigationItem href="/about" active={pathname === '/about'}>{t('nav.about')}</NavigationItem>
-          <NavigationItem href="/platform" active={pathname === '/platform'}>{t('nav.platform')}</NavigationItem>
-          <NavigationItem href="/team" active={pathname === '/team'}>{t('nav.team')}</NavigationItem>
-          <NavigationItem href="/contact" active={pathname === '/contact'}>{t('nav.contact')}</NavigationItem>
+        <NavigationItem href="/" active={pathname === '/'}>{t('nav.home')}</NavigationItem>
+        <NavigationItem href="/about" active={pathname === '/about'}>{t('nav.about')}</NavigationItem>
+        <NavigationItem href="/platform" active={pathname === '/platform'}>{t('nav.platform')}</NavigationItem>
+        <NavigationItem href="/team" active={pathname === '/team'}>{t('nav.team')}</NavigationItem>
+        {locale === 'nl' && <NavigationItem href="/vacatures" active={pathname === '/vacatures'}>{t('nav.vacatures')}</NavigationItem>}
+        <NavigationItem href="/contact" active={pathname === '/contact'}>{t('nav.contact')}</NavigationItem>
       </Navigation>
     </div>
   );
