@@ -27,7 +27,7 @@ export default function VacaturesPage() {
                     </div>
                     <div>
                         <h4 className="mb-8">We hebben op dit moment de volgende vacatures</h4>
-                        <ul className="list-disc">
+                        <ul className="list-disc pl-8">
                             {vacatures.map((v) => (
                                 <li key={v.id}><Link href={v.href} className="inline-flex items-center gap-2 hover:underline">{v.title} <FontAwesomeIcon icon={faArrowRight} /></Link></li>
                             ))}
