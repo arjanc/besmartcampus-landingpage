@@ -3,6 +3,7 @@ import OnboardingManagerContent from "./content/onboardingManagerContent";
 import FoundingEngineerContent from "./content/foundingEngineerContent";
 import BackendEngineerContent from "./content/backendEngineerContent";
 import FrontendEngineerContent from "./content/frontendEngineerContent";
+import MarkerterContent from "./content/markerterContent";
 
 export type Vacature = {
     id: number;
@@ -41,5 +42,11 @@ export const vacatures: Vacature[] = [
         title: 'Frontend engineer',
         href: '/vacatures/frontend-engineer',
         content: FrontendEngineerContent
+    },
+    {
+        id: 6,
+        title: 'Marketeer',
+        href: '/vacatures/marketeer',
+        content: MarkerterContent
     },
 ];
